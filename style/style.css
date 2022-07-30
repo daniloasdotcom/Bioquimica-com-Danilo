@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .container {
     position: relative;
 }
@@ -8,4 +10,44 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+body {
+	background-image: linear-gradient(180deg, #192E2F, #425F4B, #3A595C, #3A595C);
+}
+
+div.box {
+	width: 150px;
+	display: inline-block;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: transparent;
+  color: black;
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+
+nav a:hover {
+    border-bottom: 3px solid white;
+}
+
+nav a.active {
+    border-bottom: 3px solid white;
+}
+    
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
 }
