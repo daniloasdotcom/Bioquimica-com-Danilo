@@ -21,6 +21,19 @@ div.box {
 	display: inline-block;
 }
 
+div.margem{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p.um {
+    width: 100%;
+    color: white;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: justify;
+} 
+
 .header {
   padding: 30px;
   text-align: center;
