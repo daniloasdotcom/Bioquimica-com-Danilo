@@ -14,6 +14,7 @@
 
 body {
 	background-image: linear-gradient(180deg, #192E2F, #425F4B, #3A595C, #3A595C);
+    margin: 0px;
 }
 
 div.box {
@@ -57,7 +58,7 @@ nav a:hover {
 nav a.active {
     border-bottom: 3px solid white;
 }
-    
+
 
 main {
     min-width: 300px;
