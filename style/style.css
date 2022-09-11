@@ -32,7 +32,7 @@ p.um {
     color: white;
     line-height: 2.0;
     font-size: 18px;
-    text-align: justify;
+    text-align: center;
 } 
 
 .header {
@@ -83,7 +83,9 @@ nav a:hover {
     border-bottom: 3px solid white;
 }
 
-nav a.active {
+nav a:active {
+    background-color: #a7e2dd;
+    color: black;
     border-bottom: 3px solid white;
 }
 
