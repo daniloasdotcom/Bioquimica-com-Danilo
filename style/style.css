@@ -38,13 +38,29 @@ p.um {
     line-height: 2.0;
     font-size: 18px;
     text-align: center;
-} 
+}
+
+p.dias {
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    line-height: 2.0;
+    font-size: 18px;
+    text-align: left;
+}
 
 .header {
   padding: 30px;
   text-align: center;
   background: transparent;
   color: black;
+}
+
+
+li {
+    color: black;
+    line-height: 2.0;
+    font-size: 18px;
 }
 
 p > a {
@@ -100,3 +116,30 @@ main {
     max-width: 1000px;
     margin: auto;
 }
+
+.collapsible {
+    background-color: #a7e2dd;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    color: black;
+    line-height: 2.0;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #a7e2dd;
+  }
+  
+  .content {
+    padding: 0 18px;
+    color: black;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
