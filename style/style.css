@@ -17,6 +17,11 @@ body {
     margin: 0px;
 }
 
+footer {   
+    background-color: #29060A;
+    
+    }
+
 div.box {
 	width: 150px;
 	display: inline-block;
