@@ -119,6 +119,7 @@ main {
 
 .collapsible {
     background-color: #a7e2dd;
+    font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     color: black;
     cursor: pointer;
@@ -127,7 +128,7 @@ main {
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 18px;
     color: black;
     line-height: 2.0;
   }
