@@ -152,3 +152,14 @@ main {
     overflow: hidden;
     background-color: #f1f1f1;
   }
+
+  .btn {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    border-bottom: 10px solid #a7e2dd;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s;
+  }
