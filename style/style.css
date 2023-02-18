@@ -3,8 +3,8 @@
 .container {
     position: relative;
 }
-    
-  
+
+
 .child {
     position: absolute;
     top: 50%;
@@ -13,21 +13,23 @@
 }
 
 body {
-	background-image: linear-gradient(180deg, #29060A, #3E0B10, #480C14, #50121D);
+    background-image: linear-gradient(180deg, #29060A, #3E0B10, #480C14, #50121D);
     margin: 0px;
 }
 
-footer {   
+footer {
+    text-align: center;
+    align-items: center;
     background-color: #29060A;
-    
-    }
 
-div.box {
-	width: 150px;
-	display: inline-block;
 }
 
-div.margem{
+div.box {
+    width: 150px;
+    display: inline-block;
+}
+
+div.margem {
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -57,11 +59,14 @@ p.esquerda {
     text-align: left;
 }
 
-.header {
-  padding: 30px;
-  text-align: center;
-  background: transparent;
-  color: black;
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background: transparent;
+    color: black;
 }
 
 
@@ -71,7 +76,7 @@ li {
     font-size: 18px;
 }
 
-p > a {
+p>a {
     background-color: white;
     border-radius: 5px;
     color: black;
@@ -88,7 +93,11 @@ p a:hover {
     border-bottom: 3px solid white;
 }
 
-nav > a {
+nav>a {
+
+    display: flex;
+    justify-content: center;
+
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -131,21 +140,22 @@ main {
     font-size: 18px;
     color: black;
     line-height: 2.0;
-  }
-  
-  .active, .collapsible:hover {
+}
+
+.active,
+.collapsible:hover {
     background-color: #a7e2dd;
-  }
-  
-  .content {
+}
+
+.content {
     padding: 0 18px;
     color: black;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
-  }
+}
 
-  .btn {
+.btn {
     background-color: white;
     border-radius: 5px;
     color: black;
@@ -154,4 +164,4 @@ main {
     text-decoration: none;
     font-weight: bold;
     transition-duration: 1s;
-  }
+}
