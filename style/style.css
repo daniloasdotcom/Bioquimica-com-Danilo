@@ -16,11 +16,6 @@ header {
     color: black;
 }
 
-.container {
-    position: relative;
-}
-
-
 .child {
     position: absolute;
     top: 50%;
@@ -177,4 +172,57 @@ footer p {
 footer img {
     max-width: 25%;
     height: auto;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
+td>a {
+    color: white;
+}
+
+th {
+    background-color: #29060A;
+    ;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* proporção 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    border: 4px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
 }
