@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-image: linear-gradient(180deg, #29060A, #3E0B10, #480C14, #50121D);
+    background-image: linear-gradient(180deg, #26734D, #1D5033, #133A1F, #133A1F, #1D5033, #26734D);
     font-family: 'Times New Roman', Times, serif;
     margin: 0px;
 }
@@ -12,7 +12,7 @@ header {
     align-items: center;
     text-align: center;
     padding: 30px;
-    background: transparent;
+    background: #1A2E41;
     color: black;
 }
 
@@ -29,8 +29,17 @@ div.box {
 }
 
 div.margem {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h2 {
+    color: white;
+    text-decoration: underline;
+}
+
+li.estude {
+    color: white;
 }
 
 p.um {
@@ -38,7 +47,7 @@ p.um {
     color: white;
     line-height: 2.0;
     font-size: 18px;
-    text-align: center;
+    text-align: justify;
 }
 
 p.dias {
@@ -109,6 +118,7 @@ nav a:active {
 }
 
 
+
 main {
     min-width: 300px;
     max-width: 1000px;
@@ -156,7 +166,7 @@ main {
 }
 
 footer {
-    background-color: #29060A;
+    background-color: #1A2E41;
     text-align: center;
     align-items: center;
     color: #fff;
@@ -192,9 +202,9 @@ td>a {
 }
 
 th {
-    background-color: #29060A;
+    background-color: white;
     ;
-    color: white;
+    color: black;
 }
 
 .container {
@@ -225,4 +235,33 @@ th {
     .container {
         padding: 0 10px;
     }
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.grid-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #eee;
+    border: 1px solid #999;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
 }
