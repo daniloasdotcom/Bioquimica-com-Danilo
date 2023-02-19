@@ -75,11 +75,8 @@ li {
 
 
 p>a {
-    background-color: white;
-    border-radius: 5px;
-    color: black;
-    padding: 10px;
-    border-bottom: 10px solid #a7e2dd;
+    background-color: transparent;
+    color: blue;
     text-decoration: none;
     font-weight: bold;
     transition-duration: 1s;
