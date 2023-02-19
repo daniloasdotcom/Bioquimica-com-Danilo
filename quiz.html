@@ -30,27 +30,27 @@
 		<form>
 			<fieldset>
 				<legend>Os carboidratos são uma classe importante de moléculas biológicas que fornecem energia e são um componente essencial na estrutura das células. Qual das seguintes alternativas descreve corretamente o papel dos carboidratos na bioquímica?</legend>
-				<label><input type="radio" name="pergunta1" value="a">A) Glicose</label>
-				<label><input type="radio" name="pergunta1" value="b">B) Frutose</label>
-				<label><input type="radio" name="pergunta1" value="c">C) Sacarose</label>
+				<label><input type="radio" name="pergunta1" value="a">A) Fornecer a maior parte das estruturas celulares</label>
+				<label><input type="radio" name="pergunta1" value="b">B) Atuar como um regulador de genes</label>
+				<label><input type="radio" name="pergunta1" value="c">C) Fornecer energia para as células</label>
 				<button type="button" onclick="checkAnswer(1)">Verificar resposta</button>
 				<div id="result-p1"></div>
 			</fieldset>
 			<br></br>
 			<fieldset>
 				<legend>As enzimas são moléculas que catalisam reações químicas, aumentando a taxa de reação. Qual das seguintes alternativas descreve corretamente a ação das enzimas?</legend>
-				<label><input type="radio" name="pergunta2" value="a">A) RNA polimerase</label>
-				<label><input type="radio" name="pergunta2" value="b">B) Proteína G</label>
-				<label><input type="radio" name="pergunta2" value="c">C) DNA polimerase</label>
+				<label><input type="radio" name="pergunta2" value="a">A) Reduzir a energia de ativação das reações químicas</label>
+				<label><input type="radio" name="pergunta2" value="b">B) Aumentar a quantidade de reagentes necessários para a reação química G</label>
+				<label><input type="radio" name="pergunta2" value="c">C) Inibir a reação química</label>
 				<button type="button" onclick="checkAnswer(2)">Verificar resposta</button>
 				<div id="result-p2"></div>
 			</fieldset>
 			<br></br>
 			<fieldset>
 				<legend>As proteínas são macromoléculas essenciais na vida, elas podem desempenhar diversos papéis como enzimas, hormônios e receptores. Qual das seguintes alternativas descreve corretamente os aminoácidos?</legend>
-				<label><input type="radio" name="pergunta3" value="a">A) Açúcar invertido</label>
-				<label><input type="radio" name="pergunta3" value="b">B) Ácido cítrico</label>
-				<label><input type="radio" name="pergunta3" value="c">C) Lactose</label>
+				<label><input type="radio" name="pergunta3" value="a">A) Os blocos de construção das proteínas</label>
+				<label><input type="radio" name="pergunta3" value="b">B) Os componentes que fornecem energia para as células</label>
+				<label><input type="radio" name="pergunta3" value="c">C) As moléculas responsáveis pelo armazenamento de informações genéticas</label>
 				<button type="button" onclick="checkAnswer(3)">Verificar resposta</button>
 				<div id="result-p3"></div>
 			</fieldset>
@@ -72,10 +72,10 @@
 			if (selectedValue === null) {
 				resultDiv.innerHTML = "Por favor, selecione uma resposta.";
 				resultDiv.className = "";
-			} else if (selectedValue === "b" && questionNumber === 1) {
+			} else if (selectedValue === "c" && questionNumber === 1) {
 				resultDiv.innerHTML = "Resposta correta!";
 				resultDiv.className = "result-correct";
-			} else if (selectedValue === "c" && questionNumber === 2) {
+			} else if (selectedValue === "a" && questionNumber === 2) {
 				resultDiv.innerHTML = "Resposta correta!";
 				resultDiv.className = "result-correct";
 			} else if (selectedValue === "a" && questionNumber === 3) {
