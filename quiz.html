@@ -27,33 +27,66 @@
 	</header>
 	
 	<div class="margem">
-		<h1 style="color: #FFFFFF">Quiz de Bioquímica</h1>
+		<h1 style="color: #FFFFFF">Quiz - Via Glicolítica</h1>
 		<form>
 			<fieldset>
-				<legend>Os carboidratos são uma classe importante de moléculas biológicas que fornecem energia e são um componente essencial na estrutura das células. Qual das seguintes alternativas descreve corretamente o papel dos carboidratos na bioquímica?</legend>
-				<label><input type="radio" name="pergunta1" value="a">A) Fornecer a maior parte das estruturas celulares</label>
-				<label><input type="radio" name="pergunta1" value="b">B) Atuar como um regulador de genes</label>
-				<label><input type="radio" name="pergunta1" value="c">C) Fornecer energia para as células</label>
+				<legend>1 - (UFSCar 2014 - Técnico em Laboratório) A glicólise é um processo fundamental para a produção de energia pelas células. Durante a glicólise, uma molécula de glicose é convertida em duas moléculas de ácido pirúvico, gerando ATP e NADH. Qual é o produto final da glicólise?</legend>
+				<label><input type="radio" name="pergunta1" value="a">A) Ácido pirúvico</label>
+				<label><input type="radio" name="pergunta1" value="b">B) Lactato</label>
+				<label><input type="radio" name="pergunta1" value="c">C) Acetil-CoA</label>
+				<label><input type="radio" name="pergunta1" value="d">D) ATP</label>
 				<button type="button" onclick="checkAnswer(1)">Verificar resposta</button>
 				<div id="result-p1"></div>
 			</fieldset>
 			<br></br>
 			<fieldset>
-				<legend>As enzimas são moléculas que catalisam reações químicas, aumentando a taxa de reação. Qual das seguintes alternativas descreve corretamente a ação das enzimas?</legend>
-				<label><input type="radio" name="pergunta2" value="a">A) Reduzir a energia de ativação das reações químicas</label>
-				<label><input type="radio" name="pergunta2" value="b">B) Aumentar a quantidade de reagentes necessários para a reação química G</label>
-				<label><input type="radio" name="pergunta2" value="c">C) Inibir a reação química</label>
+				<legend>2 - (UFPB 2012 - Técnico em Laboratório) A glicólise é regulada por várias enzimas, incluindo a fosfofrutoquinase e a piruvato quinase. A fosfofrutoquinase é uma enzima chave na regulação da glicólise. Em que estágio da via glicolítica a fosfofrutoquinase atua?</legend>
+				<label><input type="radio" name="pergunta2" value="a">A) Fase de investimento energético</label>
+				<label><input type="radio" name="pergunta2" value="b">B) Fase de pagamento energético</label>
+				<label><input type="radio" name="pergunta2" value="c">C) Fase de formação do ácido pirúvico</label>
+				<label><input type="radio" name="pergunta2" value="d">D) Fase de formação do lactato</label>
 				<button type="button" onclick="checkAnswer(2)">Verificar resposta</button>
 				<div id="result-p2"></div>
 			</fieldset>
 			<br></br>
 			<fieldset>
-				<legend>As proteínas são macromoléculas essenciais na vida, elas podem desempenhar diversos papéis como enzimas, hormônios e receptores. Qual das seguintes alternativas descreve corretamente os aminoácidos?</legend>
-				<label><input type="radio" name="pergunta3" value="a">A) Os blocos de construção das proteínas</label>
-				<label><input type="radio" name="pergunta3" value="b">B) Os componentes que fornecem energia para as células</label>
-				<label><input type="radio" name="pergunta3" value="c">C) As moléculas responsáveis pelo armazenamento de informações genéticas</label>
+				<legend>3 - (IFPB 2018 - Assistente em Administração) A glicólise é um processo central no metabolismo energético das células. Ela ocorre no citosol e é dividida em duas fases: a fase de investimento energético e a fase de pagamento energético. Durante a fase de pagamento energético, quais são os produtos gerados pela via glicolítica?</legend>
+				<label><input type="radio" name="pergunta3" value="a">A) 2 ATP e 2 NADH</label>
+				<label><input type="radio" name="pergunta3" value="b">B) 4 ATP e 2 NADH</label>
+				<label><input type="radio" name="pergunta3" value="c">C) 2 ATP e 4 NADH</label>
+				<label><input type="radio" name="pergunta3" value="d">D) 4 ATP e 4 NADH</label>
 				<button type="button" onclick="checkAnswer(3)">Verificar resposta</button>
 				<div id="result-p3"></div>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>4 - (UFS 2018 - Técnico em Laboratório) A glicólise é uma via metabólica importante que ocorre no citosol das células. Durante a glicólise, a glicose é convertida em duas moléculas de ácido pirúvico. Qual é o número total de ATP produzido durante a glicólise?</legend>
+				<label><input type="radio" name="pergunta4" value="a">A) 1 ATP</label>
+				<label><input type="radio" name="pergunta4" value="b">B) 2 ATP</label>
+				<label><input type="radio" name="pergunta4" value="c">C) 3 ATP</label>
+				<label><input type="radio" name="pergunta4" value="d">D) 4 ATP</label>
+				<button type="button" onclick="checkAnswer(4)">Verificar resposta</button>
+				<div id="result-p4"></div>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>5 - (UFMG 2018 - Assistente em Administração) Durante a glicólise, uma série de enzimas atua para catalisar as reações químicas envolvidas na conversão da glicose em ácido pirúvico. Qual é a enzima que catalisa a conversão do 1,3-bifosfoglicerato em 3-fosfoglicerato?</legend>
+				<label><input type="radio" name="pergunta5" value="a">A) Aldolase</label>
+				<label><input type="radio" name="pergunta5" value="b">B) Enolase</label>
+				<label><input type="radio" name="pergunta5" value="c">C) Fosfofrutoquinase</label>
+				<label><input type="radio" name="pergunta5" value="d">D) Fosfogliceratoquinase</label>
+				<button type="button" onclick="checkAnswer(5)">Verificar resposta</button>
+				<div id="result-p5"></div>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>6 - (UFSM 2018 - Técnico em Laboratório)  Durante a glicólise, ocorre a produção de ATP por meio de uma série de reações químicas que envolvem várias enzimas. Qual é a enzima responsável pela conversão do fosfoenolpiruvato em piruvato?</legend>
+				<label><input type="radio" name="pergunta6" value="a">A) Triose fosfato isomerase</label>
+				<label><input type="radio" name="pergunta6" value="b">B) Enolase</label>
+				<label><input type="radio" name="pergunta6" value="c">C) Piruvato quinase</label>
+				<label><input type="radio" name="pergunta6" value="d">D) Piruvato desidrogenase</label>
+				<button type="button" onclick="checkAnswer(6)">Verificar resposta</button>
+				<div id="result-p6"></div>
 			</fieldset>
 		</form>
 	</div>
@@ -72,14 +105,23 @@
 
 			if (selectedValue === null) {
 				resultDiv.innerHTML = "Por favor, selecione uma resposta.";
-				resultDiv.className = "";
-			} else if (selectedValue === "c" && questionNumber === 1) {
+				resultDiv.className = "without-aswer";
+			} else if (selectedValue === "a" && questionNumber === 1) {
 				resultDiv.innerHTML = "Resposta correta!";
 				resultDiv.className = "result-correct";
 			} else if (selectedValue === "a" && questionNumber === 2) {
 				resultDiv.innerHTML = "Resposta correta!";
 				resultDiv.className = "result-correct";
-			} else if (selectedValue === "a" && questionNumber === 3) {
+			} else if (selectedValue === "b" && questionNumber === 3) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "d" && questionNumber === 4) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "d" && questionNumber === 5) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "c" && questionNumber === 6) {
 				resultDiv.innerHTML = "Resposta correta!";
 				resultDiv.className = "result-correct";
 			} else {

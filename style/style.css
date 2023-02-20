@@ -263,7 +263,7 @@ th {
     margin-bottom: 10px;
 }
 
-legend{
+legend {
     color: white;
     text-align: justify;
     font-size: 18px;
@@ -277,11 +277,43 @@ label {
 }
 
 .result-correct {
-    color: green;
+    margin-top: 10px;
+    color: yellow;
     font-weight: bold;
 }
 
 .result-incorrect {
+    margin-top: 10px;
     color: red;
     font-weight: bold;
+}
+
+.without-aswer {
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+span {
+    color: blue;
+    font-style: italic;
+}
+
+span[title]::before {
+    content: attr(title);
+    background-color: white;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+span[title]:hover::before {
+    visibility: visible;
+    color: black;
+    opacity: 1;
 }
