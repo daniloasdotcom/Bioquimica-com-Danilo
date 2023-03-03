@@ -1,19 +1,22 @@
 @charset "UTF-8";
 
 body {
-    background-image: linear-gradient(180deg, #26734D, #1D5033, #133A1F, #133A1F, #1D5033, #26734D);
+    background-image: linear-gradient(90deg, #3f3f3f, #2c2c2c, #191919);
     font-family: 'Times New Roman', Times, serif;
     margin: 0px;
 }
 
 header {
+    background-image: url('../static/images/fundoheader07.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 30px;
-    background: #1A2E41;
-    color: black;
 }
 
 .child {
@@ -89,23 +92,15 @@ p a:hover {
 }
 
 nav>a {
-
+    font-weight:bold;
     display: flex;
     justify-content: center;
-
-    color: white;
+    color: black;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: 1s;
-}
-
-
-nav a:hover {
-    background-color: #a7e2dd;
-    color: black;
-    border-bottom: 3px solid white;
 }
 
 nav a:active {
@@ -114,7 +109,11 @@ nav a:active {
     border-bottom: 3px solid white;
 }
 
-
+nav a:hover {
+    background-color: #a7e2dd;
+    color: black;
+    border-bottom: 3px solid white;
+}
 
 main {
     min-width: 300px;
@@ -123,7 +122,7 @@ main {
 }
 
 .collapsible {
-    background-color: #a7e2dd;
+    background-color: #854A2A;
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     color: black;
@@ -134,13 +133,13 @@ main {
     text-align: left;
     outline: none;
     font-size: 18px;
-    color: black;
+    color: white;
     line-height: 2.0;
 }
 
 .active,
 .collapsible:hover {
-    background-color: #a7e2dd;
+    background-color: #23372C;
 }
 
 .content {
@@ -316,4 +315,60 @@ span[title]:hover::before {
     visibility: visible;
     color: black;
     opacity: 1;
+}
+
+
+.gridhome {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+    margin: 50px auto;
+    width: 90%;
+}
+
+.area1 {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.area2 {
+    height: 350px;
+    background-image: url('../static/images/homegrid.png');
+    background-size: cover;
+    /* Isso fará com que a imagem preencha toda a div */
+    background-position: center;
+    /* Isso centralizará a imagem na div */
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.area1 h2,
+.area2 h2 {
+    margin-top: 0;
+    margin-left: 0;
+    color: #333;
+}
+
+/* Media Query para telas maiores */
+@media only screen and (min-width: 768px) {
+    .gridhome {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0;
+    }
+}
+
+/* Media Query para telas menores */
+@media only screen and (max-width: 767px) {
+    .gridhome {
+        grid-template-columns: 1fr;
+    }
+}
+
+p.grid {
+    width: 100%;
+    color: black;
+    line-height: 1.8;
+    font-size: 16px;
+    text-align: justify;
 }
