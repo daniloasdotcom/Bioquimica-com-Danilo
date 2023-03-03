@@ -38,7 +38,17 @@ div.margem {
 
 h2 {
     color: white;
-    text-decoration: underline;
+}
+
+h2.hometitle {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+h2.homesub {
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    font-size: 34px;
 }
 
 li.estude {
@@ -333,7 +343,7 @@ span[title]:hover::before {
 }
 
 .area2 {
-    height: 350px;
+    height: 450px;
     background-image: url('../static/images/homegrid.png');
     background-size: cover;
     /* Isso fará com que a imagem preencha toda a div */
