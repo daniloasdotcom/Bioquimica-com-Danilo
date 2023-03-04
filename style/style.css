@@ -115,13 +115,13 @@ nav>a {
 }
 
 nav a:active {
-    background-color: #a7e2dd;
+    background-color: #5c799b;
     color: black;
     border-bottom: 3px solid white;
 }
 
 nav a:hover {
-    background-color: #a7e2dd;
+    background-color: #5c799b;
     color: black;
     border-bottom: 3px solid white;
 }
