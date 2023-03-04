@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-image: url('../static/images/fundoheader07.jpg');
+    background-image: url('../static/images/fundoheader08.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,17 +36,19 @@ div.margem {
     margin-right: 5%;
 }
 
+
+
 h2 {
     color: white;
 }
 
 h2.hometitle {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
 }
 
 h2.homesub {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     color: white;
     font-size: 34px;
 }
@@ -102,14 +104,13 @@ p a:hover {
 }
 
 nav>a {
-    font-weight:bold;
+    font-weight: bold;
     display: flex;
     justify-content: center;
-    color: black;
+    color: white;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
-    font-weight: bold;
     transition-duration: 1s;
 }
 
@@ -132,7 +133,7 @@ main {
 }
 
 .collapsible {
-    background-color: #854A2A;
+    background-color: #6F6251;
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     color: black;
@@ -149,7 +150,7 @@ main {
 
 .active,
 .collapsible:hover {
-    background-color: #23372C;
+    background-color: #5c799b;
 }
 
 .content {
@@ -172,7 +173,7 @@ main {
 }
 
 footer {
-    background-color: #1A2E41;
+    background-color: #415449;
     text-align: center;
     align-items: center;
     color: #fff;
