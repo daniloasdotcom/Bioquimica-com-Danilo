@@ -345,7 +345,7 @@ span[title]:hover::before {
 
 .area2 {
     height: 450px;
-    background-image: url('../static/images/perfil.png');
+    background-image: url('../static/images/perfil.jpg');
     background-size: cover;
     /* Isso fará com que a imagem preencha toda a div */
     background-position: center;
