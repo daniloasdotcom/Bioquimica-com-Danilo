@@ -140,7 +140,27 @@
 				<button type="button" onclick="checkAnswer(11)">Verificar resposta</button>
 				<div id="result-p11"></div>
 			</fieldset>
-			<br></br>				
+			<br></br>
+			<fieldset>
+				<legend>12 - Qual é a localização da etapda de oxidação do piruvato que antecede o Ciclo de Krebs?</legend>
+				<label><input type="radio" name="pergunta12" value="a">A) Citoplasma</label>
+				<label><input type="radio" name="pergunta12" value="b">B) Núcleo</label>
+				<label><input type="radio" name="pergunta12" value="c">C) Mitocôndria</label>
+				<label><input type="radio" name="pergunta12" value="d">D) Retículo endoplasmático</label>
+				<button type="button" onclick="checkAnswer(12)">Verificar resposta</button>
+				<div id="result-p12"></div>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>13 - Quais são os produtos da oxidação do piruvato que antecede o Ciclo de Krebs?</legend>
+				<label><input type="radio" name="pergunta13" value="a">A) Acetil-CoA, CO2 e NADH</label>
+				<label><input type="radio" name="pergunta13" value="b">B) Acetil-CoA, H2O e ATP</label>
+				<label><input type="radio" name="pergunta13" value="c">C) Piruvato, CO2 e NAD+</label>
+				<label><input type="radio" name="pergunta13" value="d">D) Acetil-CoA, CO2 e FADH2</label>
+				<button type="button" onclick="checkAnswer(13)">Verificar resposta</button>
+				<div id="result-p13"></div>
+			</fieldset>
+			<br></br>					
 		</form>
 	</div>
 	<script>
@@ -190,6 +210,12 @@
 				resultDiv.innerHTML = "Resposta correta!";
 				resultDiv.className = "result-correct";
 			} else if (selectedValue === "b" && questionNumber === 11) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "c" && questionNumber === 12) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "a" && questionNumber === 13) {
 				resultDiv.innerHTML = "Resposta correta!";
 				resultDiv.className = "result-correct";
 			} else {
