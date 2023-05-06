@@ -31,6 +31,11 @@ div.box {
     display: inline-block;
 }
 
+#feedback {
+    color: white;
+    text-align: justify;
+}
+
 div.margem {
     margin-left: 5%;
     margin-right: 5%;
