@@ -34,6 +34,7 @@ div.box {
 #feedback {
     color: white;
     text-align: justify;
+    line-height: 2.0;
 }
 
 div.margem {
