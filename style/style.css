@@ -31,11 +31,16 @@ div.box {
     display: inline-block;
 }
 
+#feedback {
+    color: white;
+    text-align: justify;
+    line-height: 2.0;
+}
+
 div.margem {
     margin-left: 5%;
     margin-right: 5%;
 }
-
 
 
 h2 {
@@ -63,6 +68,12 @@ p.um {
     line-height: 2.0;
     font-size: 18px;
     text-align: justify;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
 }
 
 p.dias {
@@ -148,6 +159,22 @@ main {
     line-height: 2.0;
 }
 
+.collapsiblemenu {
+    background-color: #5c799b80;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    line-height: 2.0;
+}
+
 .active,
 .collapsible:hover {
     background-color: #5c799b;
@@ -159,6 +186,14 @@ main {
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+}
+
+.contentmenu {
+    padding: 0 0px;
+    color: black;
+    display: none;
+    overflow: hidden;
+    background-color: transparent;
 }
 
 .btn {
@@ -351,6 +386,12 @@ span[title]:hover::before {
     background-position: center;
     /* Isso centralizará a imagem na div */
     padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.area3 {
+    background-color: #5c799b;
+    padding: 5px;
     border: 1px solid #ccc;
 }
 

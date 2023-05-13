@@ -18,11 +18,26 @@
 		<nav>
 			<a href="index.html">HOME</a>
 			<a href="complementos.html">CONTEÚDOS COMPLEMENTARES</a>
-			<a href="conteudo.html">CONTEÚDOS / QUESTIONÁRIOS</a>
-			<a href="cronogramaag1ag2.html">CRONOGRAMA - AG1/AG2</a>
-			<!--<a href="cronogramant.html">CRONOGRAMA - NT</a>-->
+			<a href="quiz.html">QUIZ</a>
+			<a href="testeaprendizagem.html">TESTE DE APRENDIZAGEM</a>
+
+			<button type="button" class="collapsiblemenu">MENU AG1/AG2</button>
+			<div class="contentmenu">
+				<nav>
+					<a href="conteudo.html">CONTEÚDOS / QUESTIONÁRIOS - AG1/AG2</a>
+					<a href="cronogramaag1ag2.html">CRONOGRAMA - AG1/AG2</a>
+				</nav>
+			</div>
+			<div style="padding-bottom: 10px;"></div>
+			<button type="button" class="collapsiblemenu">MENU NUTRIÇÃO</button>
+			<div class="contentmenu">
+				<nav>
+					<a href="conteudont.html">CONTEÚDOS / QUESTIONÁRIOS - NT</a>
+					<a href="cronogramant.html">CRONOGRAMA - NT</a>
+				</nav>
+			</div>
 			<!--<a href="estude.html">ESTUDE MELHOR</a>-->
-			<!--<a href="quiz.html">QUIZ</a> -->
+
 		</nav>
 		<hr color="white" size="1" width="80%" align="center" noshade>
 	</header>
@@ -79,6 +94,22 @@
 			</div>
 		</div>
 	</footer>
+	<script>
+		var coll = document.getElementsByClassName("collapsiblemenu");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
+			});
+		}
+	</script>
 </body>
 
 </html>
