@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+</html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bioquímica</title>
+	<link rel="stylesheet" href="./style/style.css">
+	<script src="./main.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1 style="color: white">BioQuímica UFES - Professor Danilo</h1>
+		<hr color="white" size="1" width="80%" align="center" noshade>
+		<nav>
+			<a href="index.html">HOME</a>
+			<a href="complementos.html">CONTEÚDOS COMPLEMENTARES</a>
+			<a href="quiz.html">QUIZ</a>
+			<a href="comoestudo.html">TESTE DE APRENDIZAGEM</a>
+
+			<button type="button" class="collapsiblemenu">MENU AG1/AG2</button>
+			<div class="contentmenu">
+				<nav>
+					<a href="conteudo.html">CONTEÚDOS / QUESTIONÁRIOS - AG1/AG2</a>
+					<a href="cronogramaag1ag2.html">CRONOGRAMA - AG1/AG2</a>
+				</nav>
+			</div>
+			<div style="padding-bottom: 10px;"></div>
+			<button type="button" class="collapsiblemenu">MENU NUTRIÇÃO</button>
+			<div class="contentmenu">
+				<nav>
+					<a href="conteudont.html">CONTEÚDOS / QUESTIONÁRIOS - NT</a>
+					<a href="cronogramant.html">CRONOGRAMA - NT</a>
+				</nav>
+			</div>
+			<!--<a href="estude.html">ESTUDE MELHOR</a>-->
+
+		</nav>
+		<hr color="white" size="1" width="80%" align="center" noshade>
+	</header>
+
+	<div class="margem">
+		<h1 style="color: #FFFFFF">Quiz - Gliconeogênese</h1>
+		<form>
+			<fieldset>
+				<legend>1 - O que é gliconeogênese?</legend>
+				<label><input type="radio" name="pergunta1" value="a">A) A produção de glicose a partir de
+					intermediários metabólicos não glicídicos</label>
+				<label><input type="radio" name="pergunta1" value="b">B) A conversão de glicose em glicogênio</label>
+				<label><input type="radio" name="pergunta1" value="c">C) A produção de enérgia a partir de
+					aminoácidos</label>
+				<label><input type="radio" name="pergunta1" value="d">D) A quebra de glicose para obtenção de
+					energia</label>
+				<button type="button" onclick="checkAnswer(1)">Verificar resposta</button>
+				<div id="result-p1"></div>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>2 - Qual é a importância da gliconeogênese para o organismo?</legend>
+				<label><input type="radio" name="pergunta2" value="a">A) Manter os níveis adequados de glicose no sangue
+					durante períodos de jejum ou baixa disponibilidade de carboidratos</label>
+				<label><input type="radio" name="pergunta2" value="b">B) Sintetizar proteínas a partir de
+					aminoácidos</label>
+				<label><input type="radio" name="pergunta2" value="c">C) Armazenar glicose na forma de
+					glicogênio</label>
+				<label><input type="radio" name="pergunta2" value="d">D) Produzir energia na forma de ATP</label>
+				<button type="button" onclick="checkAnswer(2)">Verificar resposta</button>
+				<div id="result-p2"></div>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>3 - Quais são os principais precursores utilizados na gliconeogênese?</legend>
+				<label><input type="radio" name="pergunta3" value="a">A) Ácidos graxos, nucleotídeos e frutose</label>
+				<label><input type="radio" name="pergunta3" value="b">B) Aminoácidos, lactato e glicerol</label>
+				<label><input type="radio" name="pergunta3" value="c">C) Glicogênio, ácido pirúvico e glicerina</label>
+				<label><input type="radio" name="pergunta3" value="d">D) Glicogênio, colesterol e lactose</label>
+				<button type="button" onclick="checkAnswer(3)">Verificar resposta</button>
+				<div id="result-p3"></div>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>4 - Durante períodos de jejum prolongado, qual tecido é o principal produtor de glicose pela
+					gliconeogênese?</legend>
+				<label><input type="radio" name="pergunta4" value="a">A) Músculos</label>
+				<label><input type="radio" name="pergunta4" value="b">B) Tecido adiposo</label>
+				<label><input type="radio" name="pergunta4" value="c">C) Fígado</label>
+				<label><input type="radio" name="pergunta4" value="d">D) Rins</label>
+				<button type="button" onclick="checkAnswer(4)">Verificar resposta</button>
+				<div id="result-p4"></div>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>5 - Quais hormônios estão envolvidos diretamente na regulação da gliconeogênese?</legend>
+				<label><input type="radio" name="pergunta5" value="a">A) Estrogênio e progesterona</label>
+				<label><input type="radio" name="pergunta5" value="b">B) Testosterona e adrenalina</label>
+				<label><input type="radio" name="pergunta5" value="c">C) Insulina e glucagon</label>
+				<label><input type="radio" name="pergunta5" value="d">D) Prolactina e melatonina</label>
+				<button type="button" onclick="checkAnswer(5)">Verificar resposta</button>
+				<div id="result-p5"></div>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>6 - Quanto a gliconeogênese, analise as informações a seguir e atribua (V) verdadeiro ou (F)
+					falso:</legend>
+				<legend>(__) - A gliconeogênese ocorre quando não há disponibilidade de glicose na alimentação ou quando
+					as reservas de glicogênio estão exauridas;</legend>
+				<legend>(__) - Na gliconeogênese, precursores como o lactato piruvato e alguns aminoácidos são
+					convertidos em oxaloacetato;</legend>
+				<legend>(__) - Ácidos graxos podem ser substratos para a gliconeogênese;</legend>
+				<legend>(__) - As reações da gliconeogênese ocorrem na mitocôndria.</legend>
+				<label><input type="radio" name="pergunta6" value="a">A) F, V, F, V</label>
+				<label><input type="radio" name="pergunta6" value="b">B) V, V, F, F.</label>
+				<label><input type="radio" name="pergunta6" value="c">C) F, F, V, F.</label>
+				<label><input type="radio" name="pergunta6" value="d">D) V, F, V, V.</label>
+				<button type="button" onclick="checkAnswer(6)">Verificar resposta</button>
+				<div id="result-p6"></div>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>7 - Assinale a alternativa correta sobre a gliconeogênese. </legend>
+				<label><input type="radio" name="pergunta7" value="a">A) A via da gliconeogênese é dispendiosa para a
+					célula pois requer 2 ATP, 2 GTP e 2 NADH</label>
+				<label><input type="radio" name="pergunta7" value="b">B) A gliconeogênese ocorre em momentos de alta
+					demanda energética, no qual os níveis de glicose e glucagon estão aumentados no sangue</label>
+				<label><input type="radio" name="pergunta7" value="c">C) Na gliconeogênese, a reação de
+					fosfoenolpiruvato à piruvato é reversível e é graças a essas reações reversíveis que a
+					gliconeogênese é viável, caso contrário não aconteceria.</label>
+				<label><input type="radio" name="pergunta7" value="d">D) Os único precurso da gliconeogênese são
+					aminoácidos, principalmente a Leucina.</label>
+				<button type="button" onclick="checkAnswer(7)">Verificar resposta</button>
+				<div id="result-p7"></div>
+			</fieldset>
+			<br></br>
+		</form>
+	</div>
+	<script>
+		function checkAnswer(questionNumber) {
+			var radios = document.getElementsByName("pergunta" + questionNumber);
+			var resultDiv = document.getElementById("result-p" + questionNumber);
+			var selectedValue = null;
+
+			for (var i = 0; i < radios.length; i++) {
+				if (radios[i].checked) {
+					selectedValue = radios[i].value;
+					break;
+				}
+			}
+
+			if (selectedValue === null) {
+				resultDiv.innerHTML = "Por favor, selecione uma resposta.";
+				resultDiv.className = "without-aswer";
+			} else if (selectedValue === "a" && questionNumber === 1) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "a" && questionNumber === 2) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "b" && questionNumber === 3) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "c" && questionNumber === 4) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "c" && questionNumber === 5) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "b" && questionNumber === 6) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "a" && questionNumber === 7) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else {
+				resultDiv.innerHTML = "Resposta incorreta. Tente novamente.";
+				resultDiv.className = "result-incorrect";
+			}
+		}
+	</script>
+	<br></br>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p>Desenvolvido por:</p>
+				</div>
+				<div class="col-md-6">
+					<a href="https://daniloas.com/" target="_blank">
+						<img src="./static/images/daniloas.png" alt="Logo Exemplo">
+					</a>
+				</div>
+				<br></br>
+				<div class="col-md-6">
+					<p>©2023 Danilo Andrade. Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script>
+		var coll = document.getElementsByClassName("collapsiblemenu");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
+			});
+		}
+	</script>
+</body>
+
+</html>
