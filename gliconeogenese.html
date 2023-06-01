@@ -133,6 +133,67 @@
 				<button type="button" onclick="checkAnswer(7)">Verificar resposta</button>
 				<div id="result-p7"></div>
 			</fieldset>
+			<h1 style="color: #FFFFFF">Questões de foco para a turma do curso de Nutrição</h1>
+			<br></br>
+			<fieldset>
+				<legend>8 - Um menino de 4 meses está sendo avaliado quanto a convulsões, retardo psicomotor e hipotonia. A investigação revela níveis séricos elevados de lactato, alanina, piruvato e ceoácidos. Com base na apresentação clínica, a atividade da piruvato carboxilase é medida usando fibroblastos de uma biópsia de pele e encontra-se acentuadamente diminuída. Esta enzima é normalmente usada para sintetizar diretamente qual das seguintes moléculas?</legend>
+				<label><input type="radio" name="pergunta8" value="a">A) Piruvato</label>
+				<label><input type="radio" name="pergunta8" value="b">B) Oxaloacetato</label>
+				<label><input type="radio" name="pergunta8" value="c">C) Malato</label>
+				<label><input type="radio" name="pergunta8" value="d">D) Acetil-CoA</label>
+				<button type="button" onclick="checkAnswer(8)">Verificar resposta</button>
+				<div id="result-p8"></div>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>9 - Um homem de 56 anos, obeso, queixa-se de polidipsia, poliúria e fadiga. Um teste de tolerância à glicose confirma o diagnóstico de diabetes. Ele recebe metformina, que funciona por qual dos seguintes mecanismos? </legend>
+				<label><input type="radio" name="pergunta9" value="a">A) Inibição da gliconeogênese hepática</label>
+				<label><input type="radio" name="pergunta9" value="b">B) Aumentar o nível de glucagon</label>
+				<label><input type="radio" name="pergunta9" value="c">C) Aumentar a responsividade celular à insulina circulante</label>
+				<label><input type="radio" name="pergunta9" value="d">D) Substituir a necessidade de insulina endógena</label>
+				<button type="button" onclick="checkAnswer(9)">Verificar resposta</button>
+				<div id="result-p9"></div>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>10 - Em humanos, a gliconeogênese:</legend>
+				<label><input type="radio" name="pergunta10" value="a">A) Pode resultar na conversão de proteínas em glicose sanguínea.</label>
+				<label><input type="radio" name="pergunta10" value="b">B) Ajuda a reduzir a glicemia após uma refeição rica em carboidratos</label>
+				<label><input type="radio" name="pergunta10" value="c">C) É essencial na conversão de ácidos graxos em glicose.</label>
+				<label><input type="radio" name="pergunta10" value="d">D) Requer a enzima hexoquinase</label>
+				<button type="button" onclick="checkAnswer(10)">Verificar resposta</button>
+				<div id="result-p10"></div>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>11 - Um fisiculturista de 32 anos decidiu seguir uma dieta que consiste em clara de ovo para garantir apenas proteínas para o crescimento muscular. Depois de algumas semanas, ele apresenta diminuição da energia e é diagnosticado como hipoglicêmico. Uma nutricionista diz ao paciente que ele provavelmente tem deficiência de vitamina Biotina. Qual das seguintes enzimas é incapaz de catalisar sua etapa na síntese de glicose a partir do piruvato?</legend>
+				<label><input type="radio" name="pergunta11" value="a">A) Piruvato carboxilase</label>
+				<label><input type="radio" name="pergunta11" value="b">B) Fosfenolpiruvato carboxiquinase</label>
+				<label><input type="radio" name="pergunta11" value="c">C) Glicose-6-fosfatase</label>
+				<label><input type="radio" name="pergunta11" value="d">D) Fosfoglicerato quinase</label>
+				<button type="button" onclick="checkAnswer(11)">Verificar resposta</button>
+				<div id="result-p11"></div>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>12 - Um menino de 8 anos apresenta episódios frequentes de fraqueza, acompanhados de sudorese e sensação de tontura. O exame físico é notável por fígado e rins palpavelmente aumentados. A bioquímica sanguínea revela acidemia láctica. O paciente é diagnosticado com deficiência de glicose-6-fosfatase, que normalmente é expressa apenas no:</legend>
+				<label><input type="radio" name="pergunta12" value="a">A) Fígado e músculo</label>
+				<label><input type="radio" name="pergunta12" value="b">B) Fígado e cérebro</label>
+				<label><input type="radio" name="pergunta12" value="c">C) Fígado e tecido adiposo</label>
+				<label><input type="radio" name="pergunta12" value="d">D) Fígado e rim</label>
+				<button type="button" onclick="checkAnswer(12)">Verificar resposta</button>
+				<div id="result-p12"></div>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>13 - Um menino de 6 anos começa a jogar futebol em uma liga comunitária. Após o primeiro jogo do ano, ele é levado ao pediatra por causa de fortes cãibras musculares e sangue na urina. Posteriormente, descobriu-se que ele tinha deficiência de lactato desidrogenase. Essa enzima é importante em qual das seguintes conversões?</legend>
+				<label><input type="radio" name="pergunta13" value="a">A) Piruvato para Acetil-CoA</label>
+				<label><input type="radio" name="pergunta13" value="b">B) Piruvato para Oxaloacetato</label>
+				<label><input type="radio" name="pergunta13" value="c">C) Piruvato a lactato</label>
+				<label><input type="radio" name="pergunta13" value="d">D) Piruvato a Alanina</label>
+				<button type="button" onclick="checkAnswer(13)">Verificar resposta</button>
+				<div id="result-p13"></div>
+			</fieldset>
 			<br></br>
 		</form>
 	</div>
@@ -173,7 +234,25 @@
 			} else if (selectedValue === "a" && questionNumber === 7) {
 				resultDiv.innerHTML = "Resposta correta!";
 				resultDiv.className = "result-correct";
-			} else {
+			} else if (selectedValue === "b" && questionNumber === 8) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "a" && questionNumber === 9) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "a" && questionNumber === 10) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "a" && questionNumber === 11) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "d" && questionNumber === 12) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "c" && questionNumber === 13) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			}  else {
 				resultDiv.innerHTML = "Resposta incorreta. Tente novamente.";
 				resultDiv.className = "result-incorrect";
 			}
