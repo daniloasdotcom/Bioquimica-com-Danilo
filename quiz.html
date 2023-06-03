@@ -50,25 +50,25 @@
 		<p class="um">A resolução do quiz é uma forma de identificar pontos fortes e fracos em seu conhecimento,
 			permitindo que vocês foquem em áreas que precisam de mais atenção e aprimorem suas habilidades.</p>
 	</div>
-	<h2 style="text-align: center;">Clique nos títulos dos quadros</h2>
+	<h2 style="text-align: center;">Escolha um dos assuntos</h2>
 	<div class="grid-container">
-		<div class="grid-item">
+		<div class="grid-item" onclick="redirecionarParaURL('glicolise.html')">
 			<a href="glicolise.html">Glicólise</a>
 			<p>Energia em 10 passos</p>
 		</div>
-		<div class="grid-item">
+		<div class="grid-item" onclick="redirecionarParaURL('ciclodekrebs.html')">
 			<a href="ciclodekrebs.html">Ciclo de Krebs</a>
 			<p>Uma via Rotatória</p>
 		</div>
-		<div class="grid-item">
-			<a href="cadeiarespiratoria.html">Cadeia Respiratória</a>
+		<div class="grid-item" onclick="redirecionarParaURL('cadeiarespiratoria.html')">
+			<a href="cadeiarespiratoria.html" >Cadeia Respiratória</a>
 			<p>Onde energias são convertidas em ATP</p>
 		</div>
-		<div class="grid-item">
+		<div class="grid-item" onclick="redirecionarParaURL('gliconeogenese.html')">
 			<a href="gliconeogenese.html">Gliconeogênese</a>
 			<p>Converto outras substâncias em glicose</p>
 		</div>
-		<div class="grid-item">
+		<div class="grid-item" onclick="redirecionarParaURL('fermentacao.html')">
 			<a href="fermentacao.html">Fermentação</a>
 			<p>Na falta de oxigênação em que mando</p>
 		</div>
@@ -92,6 +92,10 @@
 					content.style.display = "block";
 				}
 			});
+		}
+
+		function redirecionarParaURL(url) {
+			window.location.href = url;
 		}
 	</script>
 </body>

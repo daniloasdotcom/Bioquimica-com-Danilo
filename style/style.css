@@ -99,17 +99,28 @@ li {
     font-size: 18px;
 }
 
+.linkblog {
+    color: white;
+    font-size: 22px;
+}
 
-p>a {
+.textolink {
+    background-color: #a7e2dd;
+    color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.linkmenu {
     background-color: transparent;
-    color: blue;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     transition-duration: 1s;
 }
 
-p a:hover {
-    background-color: #a7e2dd;
+.linkmenu:hover {
+    background-color: #5c799b;
     color: black;
     border-bottom: 3px solid white;
 }
@@ -298,6 +309,7 @@ th {
     border: 1px solid #999;
     padding: 20px;
     text-align: center;
+    cursor: pointer;
 }
 
 .grid-item a {
@@ -423,4 +435,105 @@ p.grid {
     line-height: 1.8;
     font-size: 16px;
     text-align: justify;
+}
+
+article {
+    margin-top: 50px;
+    margin-right: 350px;
+    margin-left: 10px;
+}
+
+aside {
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo>article {
+    flex: 1;
+    min-width: 300px;
+}
+
+.conteudo>aside {
+    min-width: 200px;
+}
+
+@media (max-width: 768px) {
+    article {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    aside {
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+.post-content {
+    width: 100%;
+    color: white;
+    line-height: 2.0;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* Estilos da seção de posts */
+
+.posts {
+    flex: 3;
+}
+
+.posts p {
+    -webkit-line-clamp: 5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.posts h2 {
+    margin-top: 0;
+}
+
+.posts article {
+    margin-bottom: 30px;
+}
+
+.posts article h3 {
+    margin-top: 0;
+}
+
+/* Estilos da barra lateral */
+.sidebar {
+    margin-bottom: 30px;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar img {
+    width: 100%;
+    margin-bottom: 10px;
 }
