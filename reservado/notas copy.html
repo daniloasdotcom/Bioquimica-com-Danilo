@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+</html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioquímica</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 style="color: white">BioQuímica UFES - Professor Danilo</h1>
+        <hr color="white" size="1" width="80%" align="center" noshade>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="complementos.html">CONTEÚDOS COMPLEMENTARES</a>
+            <a href="quiz.html">QUIZ</a>
+            <a href="testeaprendizagem.html">TESTE DE APRENDIZAGEM</a>
+
+            <button type="button" class="collapsiblemenu">MENU AG1/AG2</button>
+            <div class="contentmenu">
+                <nav>
+                    <a href="conteudo.html">CONTEÚDOS / QUESTIONÁRIOS - AG1/AG2</a>
+                    <a href="cronogramaag1ag2.html">CRONOGRAMA - AG1/AG2</a>
+                </nav>
+            </div>
+            <div style="padding-bottom: 10px;"></div>
+            <button type="button" class="collapsiblemenu">MENU NUTRIÇÃO</button>
+            <div class="contentmenu">
+                <nav>
+                    <a href="conteudont.html">CONTEÚDOS / QUESTIONÁRIOS - NT</a>
+                    <a href="cronogramant.html">CRONOGRAMA - NT</a>
+                </nav>
+            </div>
+            <!--<a href="estude.html">ESTUDE MELHOR</a>-->
+
+        </nav>
+        <hr color="white" size="1" width="80%" align="center" noshade>
+    </header>
+    <br></br>
+    <center>
+        <h1 style="color: white">Conteúdo das Aulas Teóricas - Nutrição</h1>
+    </center>
+    <div style="overflow-x:auto;">
+        <table>
+            <thead>
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th colspan="2">1º exercício</th>
+                <th colspan="2">2º exercício</th>
+                <th colspan="2">3º exercício</th>
+                <th colspan="2">4º exercício</th>
+                <th colspan="2">5º exercício</th>
+                <th colspan="2">6º exercício</th>
+                <th colspan="2">7º exercício</th>
+                <th colspan="2">8º exercício</th>
+                <th colspan="2">9º exercício</th>
+                <th colspan="2">10º exercício</th>
+
+            </tr>
+            <tr>
+                <th>nº</th>
+                <th>Matrícula</th>
+                <th>Nota até o momento</th>
+                <th>Exercícios</th>
+                <th>Práticas</th>
+                <th>% Acertos</th>
+                <th>Pontuação</th>
+                <th>% Acertos</th>
+                <th>Pontuação</th>
+                <th>% Acertos</th>
+                <th>Pontuação</th>
+                <th>% Acertos</th>
+                <th>Pontuação</th>
+                <th>% Acertos</th>
+                <th>Pontuação</th>
+                <th>% Acertos</th>
+                <th>Pontuação</th>
+                <th>% Acertos</th>
+                <th>Pontuação</th>
+                <th>% Acertos</th>
+                <th>Pontuação</th>
+                <th>% Acertos</th>
+                <th>Pontuação</th>
+                <th>% Acertos</th>
+                <th>Pontuação</th>
+            </tr>
+        </thead>
+        
+        </table>
+    </div>
+    <br></br>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Desenvolvido por:</p>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://daniloas.com/" target="_blank">
+                        <img src="./static/images/daniloas.png" alt="Logo Exemplo">
+                    </a>
+                </div>
+                <br></br>
+                <div class="col-md-6">
+                    <p>©2023 Danilo Andrade. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var coll = document.getElementsByClassName("collapsiblemenu");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
