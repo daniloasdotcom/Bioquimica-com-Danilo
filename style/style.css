@@ -125,6 +125,27 @@ li {
     border-bottom: 3px solid white;
 }
 
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social-links a:hover {
+    color: #0056b3;
+}
+
 nav>a {
     font-weight: bold;
     display: flex;
@@ -377,6 +398,14 @@ span[title]:hover::before {
 
 
 .gridhome {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+    margin: 50px auto;
+    width: 90%;
+}
+
+.gridsobre {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 0px;
