@@ -125,25 +125,19 @@ li {
     border-bottom: 3px solid white;
 }
 
-.social-links {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
 }
 
-.social-links li {
-    margin: 0 10px;
+.fa-youtube {
+    background: #bb0000;
+    color: white;
 }
 
-.social-links a {
-    color: #007bff;
-    text-decoration: none;
-    font-size: 24px;
-}
-
-.social-links a:hover {
-    color: #0056b3;
+.fa-instagram {
+    background: #125688;
+    color: white;
 }
 
 nav>a {
