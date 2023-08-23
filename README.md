@@ -1,6 +1,6 @@
 # Site de Bioquímica
 
-Seja bem-vindo ao repositório do site de Bioquímica! Este é um projeto desenvolvido pelo professor [seu nome] para compartilhar conhecimentos e recursos relacionados ao campo fascinante da Bioquímica. Aqui você encontrará materiais didáticos, artigos científicos, tutoriais e muito mais.
+Seja bem-vindo ao repositório do site de Bioquímica! Este é um projeto desenvolvido pelo professor Danilo Andrade para compartilhar conhecimentos e recursos relacionados ao campo fascinante da Bioquímica. Aqui você encontrará materiais didáticos, artigos científicos, tutoriais e muito mais.
 
 ## Objetivo
 
@@ -19,14 +19,6 @@ O objetivo deste site é fornecer um ambiente de aprendizado interativo e acess�
 ## Contribuição
 
 Este projeto é voltado para a comunidade de estudantes e entusiastas da Bioquímica. Encorajamos você a contribuir e ajudar a aprimorar o conteúdo disponível neste repositório. Se você tem conhecimentos especializados, materiais didáticos adicionais ou sugestões de melhoria, sinta-se à vontade para abrir uma issue ou enviar um pull request. Valorizamos sua colaboração e a diversidade de perspectivas que ela pode trazer ao projeto.
-
-## Como Contribuir
-
-1. **Fork** este repositório e faça o clone para sua máquina local.
-2. Faça as alterações desejadas ou adicione novo conteúdo ao projeto.
-3. Certifique-se de seguir as boas práticas de codificação e documentação.
-4. Envie um pull request com suas alterações para revisão.
-5. Agradecemos antecipadamente sua contribuição!
 
 ## Contato
 
