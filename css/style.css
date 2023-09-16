@@ -133,12 +133,12 @@ li {
 
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    width: 60px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 1px 1px;
 }
 
 .fa:hover {
@@ -146,17 +146,14 @@ li {
 }
 
 .fa-linkedin {
-    background: #007bb5;
     color: white;
 }
 
 .fa-youtube {
-    background: #bb0000;
     color: white;
 }
 
 .fa-instagram {
-    background: #125688;
     color: white;
 }
 
