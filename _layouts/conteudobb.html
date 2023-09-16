@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+</html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioquímica</title>
+    <link href="{{"css/style.css" | relative_url}}" rel="stylesheet">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            {% include navbar.html %}
+        </div>
+    </header>
+    <br></br>
+    <center>
+        <h1 style="color: white">BB1 / BB2</h1>
+        <h1 style="color: white">Conteúdo das Aulas Teóricas</h1>
+    </center>
+    <div style="overflow-x:auto;">
+        <table>
+            <tr>
+                <th>Aula</th>
+                <th>Dia</th>
+                <th>Slides</th>
+                <th>Questionário</th>
+                <th>Data limite para entrega da resolução</th>
+            </tr>
+            <tr>
+                <td>
+                    <p style="color: white">01</p>
+                </td>
+                <td>
+                    <p style="color: white">16/08</p>
+                </td>
+                <td><a target="_blank" rel="external">Sistema de avaliação da disciplina</a></td>
+                <td style="color: white"></td>
+                <td>
+                    <p style="color: white"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="color: white">02</p>
+                </td>
+                <td>
+                    <p style="color: white">23/08</p>
+                </td>
+                <td><a href="./assets/aulas/introducao_a_bioquimica.pptx" download="introducao_a_bioquimica.pptx"
+                        target="_blank" rel="external">Introdução a Bioquímica</a></td>
+                <td><a href="./assets/questionarios/1ªQuest_BB1BB2.pdf" download="1ªQuest_BB1BB2.pdf" target="_blank"
+                        rel="external">1º Questionário</a></td>
+                <td>
+                    <p style="color: white">30/08</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="color: white">03</p>
+                </td>
+                <td>
+                    <p style="color: white">13/09</p>
+                </td>
+                <td><a href="./assets/aulas/glicolise.pptx" download="glicolise.pptx" target="_blank"
+                        rel="external">Glicólise</a></td>
+                <td><a href="./assets/questionarios/2ºQuest_BB1BB2.pdf" download="2ºQuest_BB1BB2.pdf" target="_blank"
+                        rel="external">2º Questionário</a></td>
+                <td>
+                    <p style="color: white">20/09</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="color: white">04</p>
+                </td>
+                <td>
+                    <p style="color: white">20/09</p>
+                </td>
+                <td><a href="./assets/aulas/ciclo_de_krebs.pptx" download="ciclo_de_krebs.pptx" target="_blank"
+                        rel="external">Ciclo de Krebs</a></td>
+                <td><a>Em Produção</a></td>
+                <td>
+                    <p style="color: white">27/09</p>
+                </td>
+            </tr>
+            <!--<tr>
+                <td>
+                    <p style="color: white">04</p>
+                </td>
+                <td>
+                    <p style="color: white">24/04</p>
+                </td>
+                <td><a href="./static/aulas/ciclo_de_krebs.pptx" download="ciclo_de_krebs.pptx" target="_blank"
+                        rel="external">Ciclo de Krebs</a></td>
+                <td><a href="./static/questionarios/3ºQuest_Aula04_AG1AG2.pdf" download="3ºQuest_Aula04_AG1AG2.pdf"
+                        target="_blank" rel="external">3º Questionário</a></td>
+                <td>
+                    <p style="color: white">08/05</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="color: white">05</p>
+                </td>
+                <td>
+                    <p style="color: white">08/05</p>
+                </td>
+                <td><a href="./static/aulas/cadeia_respiratoria.pptx" download="cadeia_respiratoria.pptx"
+                        target="_blank" rel="external">Cadeia Respiratória</a></td>
+                <td><a href="./static/questionarios/4ºQuest_Aula05_AG1AG2.pdf" download="4ºQuest_Aula05_AG1AG2.pdf"
+                        target="_blank" rel="external">4º Questionário</a></td>
+                <td>
+                    <p style="color: white">15/05</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="color: white">06</p>
+                </td>
+                <td>
+                    <p style="color: white">15/05</p>
+                </td>
+                <td><a href="./static/aulas/cadeia_respiratoria.pptx" download="cadeia_respiratoria.pptx"
+                        target="_blank" rel="external">Revisão Respiração Celular Aeróbica</a></td>
+                <td><a href="./static/questionarios/5ºQuest_Aula06_AG1AG2.pdf" download="5ºQuest_Aula06_AG1AG2.pdf"
+                        target="_blank" rel="external">5º Questionário</a></td>
+                <td>
+                    <p style="color: white">22/05</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="color: white">07</p>
+                </td>
+                <td>
+                    <p style="color: white">05/06</p>
+                </td>
+                <td><a href="./static/aulas/fermentacao_gliconeogenese.pptx" download="fermentacao_gliconeogenese.pptx"
+                        target="_blank" rel="external">Vias fermentativas e Gliconeogênese</a></td>
+                <td><a href="./static/questionarios/6ºQuest_Aula07_AG1AG2.pdf" download="6ºQuest_Aula07_AG1AG2.pdf"
+                        target="_blank" rel="external">6º Questionário</a></td>
+                <td>
+                    <p style="color: white">19/06</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="color: white">08</p>
+                </td>
+                <td>
+                    <p style="color: white">12/06</p>
+                </td>
+                <td><a href="./static/aulas/metabolismo_glicogenio.pptx" download="metabolismo_glicogenio.pptx"
+                        target="_blank" rel="external">Metabolismo do Glicogênio</a></td>
+                <td><a href="./static/questionarios/7ºQuest_Aula08_AG1AG2.pdf" download="7ºQuest_Aula08_AG1AG2.pdf"
+                        target="_blank" rel="external">7º Questionário</a></td>
+                <td>
+                    <p style="color: white">19/06</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="color: white">09</p>
+                </td>
+                <td>
+                    <p style="color: white">19/06</p>
+                </td>
+                <td><a href="./static/aulas/via_das_pentoses_ag1ag2.pptx" download="via_das_pentoses_ag1ag2.pptx"
+                        target="_blank" rel="external">Via das Pentoses Fosfato</a></td>
+                <td><a href="./static/questionarios/8ºQuest_Aula09_AG1AG2.pdf" download="8ºQuest_Aula09_AG1AG2.pdf"
+                        target="_blank" rel="external">8º Questionário</a></td>
+                <td>
+                    <p style="color: white">26/06</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="color: white">10</p>
+                </td>
+                <td>
+                    <p style="color: white">26/06</p>
+                </td>
+                <td><a href="./static/aulas/introducao_lipidios.pptx" download="introducao_lipidios.pptx"
+                        target="_blank" rel="external">Introdução aos Lipídios</a></td>
+                <td><a href="./static/questionarios/9ºQuest_Aula10_AG1AG2.pdf" download="9ºQuest_Aula10_AG1AG2.pdf"
+                        target="_blank" rel="external">9º Questionário</a></td>
+                <td>
+                    <p style="color: white">03/07</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="color: white">11</p>
+                </td>
+                <td>
+                    <p style="color: white">03/07</p>
+                </td>
+                <td><a href="./static/aulas/Catabolismo_dos_Acidos_Graxos.pptx" download="Catabolismo_dos_Acidos_Graxos.pptx"
+                        target="_blank" rel="external">Catabolismo de Ácidos Graxos</a></td>
+                <td><a href="./static/questionarios/10ºQuest_Aula11_AG1AG2.pdf" download="10ºQuest_Aula11_AG1AG2.pdf"
+                        target="_blank" rel="external">10º Questionário</a></td>
+                <td>
+                    <p style="color: white">10/07</p>
+                </td>
+            </tr>
+            -->
+        </table>
+    </div>
+    <br></br>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Desenvolvido por:</p>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://daniloas.com/" target="_blank">
+                        <img src="./assets/daniloas.png" alt="Logo Exemplo">
+                    </a>
+                </div>
+                <br></br>
+                <div class="col-md-6">
+                    <p>©2023 Danilo Andrade. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var coll = document.getElementsByClassName("collapsiblemenu");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

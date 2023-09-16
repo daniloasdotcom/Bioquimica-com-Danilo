@@ -25,7 +25,7 @@
                 {% for post in site.posts %}
                     <li>
                         <a href="{{ post.url }}">{{ post.title}}</a>
-                        <p>{{ post.date | date: "%-d %b %Y | %H:%M" }}</p>
+                        <p>{{ post.date | date: "%-d %b %Y" }}</p>
                         <p>{{ post.excerpt }}</p> <!-- Adicione esta linha para incluir o trecho da postagem -->
                     </li>
                     <hr color="white" size="1" width="80%" align="center" noshade>

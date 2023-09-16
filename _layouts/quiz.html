@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+</html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioquímica</title>
+    <link href="{{"css/style.css" | relative_url}}" rel="stylesheet">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+	<header>
+        <div>
+            {% include navbar.html %}
+        </div>
+    </header>
+	<div class="margem">
+		<h2>Lista de Perguntas e respostas para testar seus conhecimentos</h2>
+		<p class="um">Caros alunos, hoje eu gostaria de convidá-los a testar seus conhecimentos e habilidades
+			respondendo ao quiz que eu preparei especialmente para vocês. Esse tipo de atividade é uma ótima
+			oportunidade para vocês colocarem em prática tudo o que aprenderam e verificarem o quanto realmente
+			absorveram do conteúdo.</p>
+		<p class="um">A resolução do quiz é uma forma de identificar pontos fortes e fracos em seu conhecimento,
+			permitindo que vocês foquem em áreas que precisam de mais atenção e aprimorem suas habilidades.</p>
+	</div>
+	<h2 style="text-align: center;">Escolha um dos assuntos</h2>
+	<div class="grid-container">
+		<div class="grid-item" onclick="redirecionarParaURL('glicolise.html')">
+			<a href="glicolise.html">Glicólise</a>
+			<p>Energia em 10 passos</p>
+		</div>
+		<div class="grid-item">
+			<a><s>Ciclo de Krebs<s></a>
+			<p>Indisponível</p>
+		</div>
+		<div class="grid-item">
+			<a><s>Cadeia Respiratória</s></a>
+			<p>Indisponível</p>
+		</div>
+		<!--
+		<div class="grid-item" onclick="redirecionarParaURL('ciclodekrebs.html')">
+			<a href="ciclodekrebs.html">Ciclo de Krebs</a>
+			<p>Uma via Rotatória</p>
+		</div>
+		<div class="grid-item" onclick="redirecionarParaURL('cadeiarespiratoria.html')">
+			<a href="cadeiarespiratoria.html" >Cadeia Respiratória</a>
+			<p>Onde energias são convertidas em ATP</p>
+		</div>
+		<div class="grid-item" onclick="redirecionarParaURL('gliconeogenese.html')">
+			<a href="gliconeogenese.html">Gliconeogênese</a>
+			<p>Converto outras substâncias em glicose</p>
+		</div>
+		<div class="grid-item" onclick="redirecionarParaURL('fermentacao.html')">
+			<a href="fermentacao.html">Fermentação</a>
+			<p>Na falta de oxigênação em que mando</p>
+		</div>
+		<div class="grid-item" onclick="redirecionarParaURL('glicogenio.html')">
+			<a href="glicogenio.html">Metabolismo do Glicogênio</a>
+			<p>Vai uma dose de glicose ai?</p>
+		</div>
+		-->
+	</div>
+	<br></br>
+	<div class="margem">
+		<p class="esquerda" lign="left"><b>Professor:</b> Danilo Andrade</p>
+		<p class="esquerda" lign="left"><b>Contato:</b> danilo_as@live.com</p>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p>Desenvolvido por:</p>
+				</div>
+				<div class="col-md-6">
+					<a href="https://daniloas.com/" target="_blank">
+						<img src="./assets/daniloas.png" alt="Logo Exemplo">
+					</a>
+				</div>
+				<br></br>
+				<div class="col-md-6">
+					<p>©2023 Danilo Andrade. Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script>
+		var coll = document.getElementsByClassName("collapsiblemenu");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
+			});
+		}
+
+		function redirecionarParaURL(url) {
+			window.location.href = url;
+		}
+	</script>
+</body>
+
+</html>

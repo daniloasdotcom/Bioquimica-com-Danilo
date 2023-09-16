@@ -10,5 +10,14 @@
 - label: Lista BB
   route: /listapresencabb
 
+- label: Conteudo BB
+  route: /conteudobb
+
+- label: Quiz
+  route: /quiz
+
+- label: Glicolise
+  route: /glicolise
+  
 # - label: Portfolio
 #   route: /port
