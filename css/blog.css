@@ -1,0 +1,94 @@
+body {
+    background-image: linear-gradient(90deg, #3f3f3f, #2c2c2c, #191919);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+header {
+    background-image: url('../assets/fundoheader.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.linkmenu {
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+
+.linkmenu:hover {
+    background-color: #5c799b;
+    color: black;
+    border-bottom: 3px solid white;
+}
+
+nav>a {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+nav a:active {
+    background-color: #5c799b;
+    color: black;
+    border-bottom: 3px solid white;
+}
+
+nav a:hover {
+    background-color: #5c799b;
+    color: black;
+    border-bottom: 3px solid white;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.myposts {
+    list-style-type: none; /* Remover marcadores de lista */
+    padding: 0;
+}
+
+.myposts li {
+    margin-bottom: 20px; /* Espaçamento entre as postagens */
+    line-height: 1.5; /* Espaçamento de 1,5 entre as linhas */
+    text-align: justify; /* Alinhar o texto justificado */
+}
+
+.myposts a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none; /* Remover sublinhado dos links */
+    font-weight: bold; /* Texto em negrito */
+    font-size: 24px; /* Tamanho da fonte do título*/
+}
+
+.myposts a:hover {
+    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse */
+}
+
+/* Estilos para a data e trecho */
+.permalink p {
+    margin: 5px 0;
+}
+
+/* Ajustar a cor do texto e da data para branco */
+.myposts p {
+    color: #fff;
+    font-size: 18px;
+}

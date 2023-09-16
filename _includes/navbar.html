@@ -1,0 +1,43 @@
+<!-- navbar 
+<div class="row">
+    <div class="col">
+        <nav id="main-nav" class="nav justify-content-start">
+            <li class="nav-item">
+                <a class="navbar-link navbar-text" href={{ site.data.routes[0].route }}>
+                    {{ site.data.routes[0].label }}
+                </a>
+            </li>
+        </nav>
+    </div>
+    <div class="col">
+        <nav id="main-nav" class="nav justify-content-end">
+            {% for route in site.data.routes offset:1 %}
+            <li class="nav-item">
+                <a class="navbar-link navbar-text" href={{ route.route }}>
+                    {{ route.label }}
+                </a>
+            </li>
+            {% endfor %}
+        </nav>
+    </div>
+</div>
+-->
+
+<div>
+    <h1 style="color: white">BioQuímica - Professor Danilo</h1>
+    <hr color="white" size="1" width="80%" align="center" noshade>
+    <nav>
+        <a class="linkmenu" href={{ site.data.routes[0].route }}>HOME</a>
+    </nav>
+    <nav>
+        <a class="linkmenu" href={{ site.data.routes[1].route }}>BLOG</a>
+    </nav>
+    <button type="button" class="collapsiblemenu">MENU BB1/BB2</button>
+    <div class="contentmenu">
+        <nav>
+            <a href={{ site.data.routes[2].route }}>CRONOGRAMA - BB1/BB2</a>
+        </nav>
+    </div>
+    
+    <hr color="white" size="1" width="80%" align="center" noshade>
+</div>

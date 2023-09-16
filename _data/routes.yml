@@ -1,0 +1,11 @@
+- label: Home
+  route: /
+
+- label: Blog
+  route: /blog
+
+- label: Cronograma
+  route: /cronogramabb1bb2
+
+# - label: Portfolio
+#   route: /port

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioquímica</title>
+    <link href="{{"css/style.css" | relative_url}}" rel="stylesheet">
+    <link href="{{"css/post.css" | relative_url}}" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            {% include navbar.html %}
+        </div>
+    </header>
+    <main>
+        <article class="post">
+                <h1>{{ page.title }}</h1>
+                <p class="post-date">{{ page.date | date: "%-d %b %Y | %H:%M" }}</p>
+            <div class="post-content">
+                {{ content }}
+            </div>
+        </article>
+    </main>
+
+    {% include footer.html %}
+
+	<script>
+		var coll = document.getElementsByClassName("collapsiblemenu");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
+			});
+		}
+	</script>
+</body>
+
+</html>

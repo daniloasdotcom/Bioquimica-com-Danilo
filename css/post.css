@@ -1,0 +1,218 @@
+body {
+    background-image: linear-gradient(90deg, #3f3f3f, #2c2c2c, #191919);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+header {
+    background-image: url('../assets/fundoheader.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.linkmenu {
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+
+.linkmenu:hover {
+    background-color: #5c799b;
+    color: black;
+    border-bottom: 3px solid white;
+}
+
+nav>a {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+nav a:active {
+    background-color: #5c799b;
+    color: black;
+    border-bottom: 3px solid white;
+}
+
+nav a:hover {
+    background-color: #5c799b;
+    color: black;
+    border-bottom: 3px solid white;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+.collapsible {
+    background-color: #6F6251;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    line-height: 2.0;
+}
+
+.collapsiblemenu {
+    background-color: #5c799b80;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    padding: 0px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    line-height: 2.0;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #5c799b;
+}
+
+.content {
+    padding: 0 18px;
+    color: black;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.contentmenu {
+    padding: 0 0px;
+    color: black;
+    display: none;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+
+
+.post-content {
+    margin-top: 20px;
+}
+
+.post-content img {
+    max-width: 100%; /* Imagens dentro da postagem se ajustam automaticamente */
+}
+
+.posts h2 {
+    margin-top: 0;
+}
+
+.post-content {
+    width: 100%;
+    color: white;
+    line-height: 2.0;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* Estilos da seção de posts */
+
+.posts {
+    flex: 3;
+}
+
+.posts p {
+    -webkit-line-clamp: 5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.posts h2 {
+    margin-top: 0;
+}
+
+h1 {
+    margin-top: 10;
+    font-size: 30px;
+    color: white;
+}
+
+.post-date {
+    margin-top: 10;
+    font-size: 18px;
+    color: white;
+}
+
+.posts article {
+    margin-bottom: 30px;
+}
+
+
+.posts article h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #415449;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer img {
+    max-width: 25%;
+    height: auto;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+}
+
+.perfil {
+    height: 100px;
+    background-image: url('../assets/daniloas.png');
+    background-repeat:no-repeat;
+    background-size: contain;
+    /* Isso fará com que a imagem preencha toda a div */
+    background-position: center;
+    /* Isso centralizará a imagem na div */
+    padding: 50px;
+}
+
+
