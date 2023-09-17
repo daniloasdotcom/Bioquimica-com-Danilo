@@ -4,7 +4,7 @@
 - label: Blog
   route: /blog
 
-- label: Cronograma
+- label: CronogramaBB
   route: /cronogramabb1bb2
 
 - label: Lista BB
@@ -12,6 +12,9 @@
 
 - label: Conteudo BB
   route: /conteudobb
+
+- label: CronogramaFA01
+  route: /cronogramafa01
 
 - label: Quiz
   route: /quiz
