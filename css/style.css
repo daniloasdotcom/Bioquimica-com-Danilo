@@ -157,6 +157,10 @@ li {
     color: white;
 }
 
+.fa-github {
+    color: white;
+}
+
 nav>a {
     font-weight: bold;
     display: flex;
@@ -516,4 +520,13 @@ aside {
     }
 }
 
-
+.perfil {
+    height: 100px;
+    background-image: url('../assets/daniloas.png');
+    background-repeat:no-repeat;
+    background-size: contain;
+    /* Isso fará com que a imagem preencha toda a div */
+    background-position: center;
+    /* Isso centralizará a imagem na div */
+    padding: 50px;
+}
