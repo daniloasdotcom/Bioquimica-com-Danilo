@@ -95,8 +95,8 @@ main {
 
 .post-title-container {
     background-color: black; /* Cor de fundo azul */
-    padding: 10px; /* Espaçamento interno */
-    border-radius: 5px; /* Borda arredondada */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 20px; /* Borda arredondada */
     border-color: #fff;
     display: inline-block; /* Torna o contêiner apenas tão largo quanto o conteúdo */
     margin-left: 10%;
