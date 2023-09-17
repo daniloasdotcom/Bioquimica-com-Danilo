@@ -94,7 +94,7 @@ main {
 }
 
 .post-title-container {
-    background-color: #007bff; /* Cor de fundo azul */
+    background-color: black; /* Cor de fundo azul */
     padding: 10px; /* Espaçamento interno */
     border-radius: 5px; /* Borda arredondada */
     border-color: #fff;
