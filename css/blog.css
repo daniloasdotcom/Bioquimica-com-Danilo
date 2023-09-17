@@ -101,7 +101,6 @@ main {
     display: inline-block; /* Torna o contêiner apenas tão largo quanto o conteúdo */
     margin-left: 10%;
     margin-right: 10%;
-    cursor: pointer;
 }
 
 /* Estilo para o título do post */

@@ -6,8 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Bioquímica</title>
-	<link href="{{" css/style.css" | relative_url}}" rel="stylesheet">
-	<link href="{{" css/blog.css" | relative_url}}" rel="stylesheet">
+	<link href="{{"css/style.css" | relative_url}}" rel="stylesheet">
+	<link href="{{"css/blog.css" | relative_url}}" rel="stylesheet">
 	<script src="./main.js"></script>
 </head>
 
@@ -21,7 +21,7 @@
 
 		<h2 style="color: #FFFFFF" align="center">Lista de postagens recentes</h2>
 		<hr color="white" size="1" width="80%" align="center" noshade>
-		<div class="post-title-container" onclick="redirectToPage()">
+		<div class="post-title-container">
 			{{ content }}
 			<ul class="myposts">
 				{% for post in site.posts %}
@@ -74,11 +74,6 @@
 					content.style.display = "block";
 				}
 			});
-		}
-
-		function redirectToPage() {
-			// Aqui você pode redirecionar para outra página ou executar alguma ação desejada
-			window.location.href = "{{ post.url }}";
 		}
 	</script>
 </body>
