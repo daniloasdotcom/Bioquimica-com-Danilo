@@ -92,3 +92,26 @@ main {
     color: #fff;
     font-size: 18px;
 }
+
+.post-title-container {
+    background-color: #007bff; /* Cor de fundo azul */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    border-color: #fff;
+    display: inline-block; /* Torna o contêiner apenas tão largo quanto o conteúdo */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Estilo para o título do post */
+.post-title {
+    color: #fff; /* Cor do texto branca */
+    text-decoration: none; /* Remove o sublinhado do link */
+    font-weight: bold; /* Texto em negrito */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+/* Efeito de hover para o título do post */
+.post-title:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
