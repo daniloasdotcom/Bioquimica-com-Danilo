@@ -13,11 +13,20 @@
 - label: Conteudo BB
   route: /conteudobb
 
+- label: CronogramaBL
+  route: /cronogramabl
+
 - label: CronogramaFA01
   route: /cronogramafa01
 
+- label: CronogramaBL
+  route: /cronogramabl
+
 - label: Quiz
   route: /quiz
+
+- label: Como Estudo
+  route: /comoestudo
 
 - label: Glicolise
   route: /glicolise

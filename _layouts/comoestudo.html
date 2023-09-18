@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+</html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bioquímica</title>
+    <link href="{{"css/style.css" | relative_url}}" rel="stylesheet">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+	<header>
+        <div>
+            {% include navbar.html %}
+        </div>
+    </header>
+
+	<div class="margem">
+		<h1 style="color: #FFFFFF">Teste de Aprendizagem</h1>
+		<form>
+			<p class="um">Prezado Aluno, o teste a seguir é tanto para sua autorreflexão quanto para que você possa obter um feedback sobre seus hábitos de estudo. São 31 perguntas que levam em torno de 10 minutos para serem respondidas. Ele foi produzido com base no teste apresentado no livro "Técnicas de Aprender" do professor Marco Aurélio de Patrício Ribeiro. Sinta-de também a vontade para visualizar minhas postagens sobre aprendizagem no instagram <a class="textolink" href="https://instagram.com/daniloas.com_?igshid=ZGUzMzM3NWJiOQ==">@daniloas.com_</a> e aprender algumas dicas para aplicar no seu dia a dia</p>
+			<h1 style="color: #FFFFFF">Técnica para ler e tomar apontamento</h1>
+
+			<fieldset>
+				<legend>1 - Tenho que reler um texto várias vezes para entendê-lo?</legend>
+				<label><input type="radio" name="q1" value="sim">Sim<br></label>
+				<label><input type="radio" name="q1" value="nao">Não<br></label>
+				<label><input type="radio" name="q1" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>2 - É díficil perceber os pontos mais importantes?</legend>
+				<label><input type="radio" name="q2" value="sim">Sim<br></label>
+				<label><input type="radio" name="q2" value="nao">Não<br></label>
+				<label><input type="radio" name="q2" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>3 - Procuro no dicionário as palavras que desconheço?</legend>
+				<label><input type="radio" name="q3" value="sim">Sim<br></label>
+				<label><input type="radio" name="q3" value="nao">Não<br></label>
+				<label><input type="radio" name="q3" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>4 - Reviso a matéria estudada?</legend>
+				<label><input type="radio" name="q4" value="sim">Sim<br></label>
+				<label><input type="radio" name="q4" value="nao">Não<br></label>
+				<label><input type="radio" name="q4" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>5 - Quando anoto o que o professor disse, perco algo que ele está dizendo?</legend>
+				<label><input type="radio" name="q5" value="sim">Sim<br></label>
+				<label><input type="radio" name="q5" value="nao">Não<br></label>
+				<label><input type="radio" name="q5" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<h1 style="color: #FFFFFF">Minha concentração</h1>
+			<fieldset>
+				<legend>6 - Tenho a tendência de “sonhar” quando estou estudando?</legend>
+				<label><input type="radio" name="q6" value="sim">Sim<br></label>
+				<label><input type="radio" name="q6" value="nao">Não<br></label>
+				<label><input type="radio" name="q6" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>7 - Tenho que estar inspirado para poder começar a estudar e, por conta disso, perco muito
+					tempo?</legend>
+				<label><input type="radio" name="q7" value="sim">Sim<br></label>
+				<label><input type="radio" name="q7" value="nao">Não<br></label>
+				<label><input type="radio" name="q7" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>8 - Assisto TV ou uso o computador antes de começar a estudar?</legend>
+				<label><input type="radio" name="q8" value="sim">Sim<br></label>
+				<label><input type="radio" name="q8" value="nao">Não<br></label>
+				<label><input type="radio" name="q8" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>9 - Demoro muito para acordar e estar pronto para o estudo?</legend>
+				<label><input type="radio" name="q9" value="sim">Sim<br></label>
+				<label><input type="radio" name="q9" value="nao">Não<br></label>
+				<label><input type="radio" name="q9" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>10 - É difícil concentrar-me no que estou estudando? Depois que termino não sei o que li?
+				</legend>
+				<label><input type="radio" name="q10" value="sim">Sim<br></label>
+				<label><input type="radio" name="q10" value="nao">Não<br></label>
+				<label><input type="radio" name="q10" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<h1 style="color: #FFFFFF">Distribuição de tempo e relações sociais durante o estudo</h1>
+			<fieldset>
+				<legend>11 - As horas parecem curtas para concentrar-me ou sentir-me com vontade de estudar?</legend>
+				<label><input type="radio" name="q11" value="sim">Sim<br></label>
+				<label><input type="radio" name="q11" value="nao">Não<br></label>
+				<label><input type="radio" name="q11" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>12 - Minhas horas de estudo são interrompidas por telefonemas, visitas e barulhos que me
+					distraem?</legend>
+				<label><input type="radio" name="q12" value="sim">Sim<br></label>
+				<label><input type="radio" name="q12" value="nao">Não<br></label>
+				<label><input type="radio" name="q12" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>13 - Meu tempo não está bem-distribuído? Dedico muito tempo para algumas coisas e pouco para
+					outras?</legend>
+				<label><input type="radio" name="q13" value="sim">Sim<br></label>
+				<label><input type="radio" name="q13" value="nao">Não<br></label>
+				<label><input type="radio" name="q13" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>14 - Tenho dificuldades em concluir um trabalho no prazo certo? por isso fica por terminar ou
+					malfeito ou em atraso?</legend>
+				<label><input type="radio" name="q14" value="sim">Sim<br></label>
+				<label><input type="radio" name="q14" value="nao">Não<br></label>
+				<label><input type="radio" name="q14" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>15 - Não consigo estudar sozinho, só com os outros?</legend>
+				<label><input type="radio" name="q15" value="sim">Sim<br></label>
+				<label><input type="radio" name="q15" value="nao">Não<br></label>
+				<label><input type="radio" name="q15" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>16 - Gosto muito de “ficar sem fazer nada” e isso perturba meus estudos?</legend>
+				<label><input type="radio" name="q16" value="sim">Sim<br></label>
+				<label><input type="radio" name="q16" value="nao">Não<br></label>
+				<label><input type="radio" name="q16" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>17 - Antes de estudar em grupo, procuro estudar a matéria sozinho?</legend>
+				<label><input type="radio" name="q17" value="sim">Sim<br></label>
+				<label><input type="radio" name="q17" value="nao">Não<br></label>
+				<label><input type="radio" name="q17" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>18 - Ocupo muito do meu tempo vendo TV, lendo ou dormindo?</legend>
+				<label><input type="radio" name="q18" value="sim">Sim<br></label>
+				<label><input type="radio" name="q18" value="nao">Não<br></label>
+				<label><input type="radio" name="q18" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>19 - Minha vida social é muito intensa: festas, passeios e encontros? Tenho pouco tempo para
+					estudar?</legend>
+				<label><input type="radio" name="q19" value="sim">Sim<br></label>
+				<label><input type="radio" name="q19" value="nao">Não<br></label>
+				<label><input type="radio" name="q19" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<h1 style="color: #FFFFFF">Hábitos e atitudes gerais de estudo</h1>
+			<fieldset>
+				<legend>20 - Fico nervoso nas provas: “dá um branco”, esqueço tudo e não consigo dizer ou escrever o que
+					aprendi?</legend>
+				<label><input type="radio" name="q20" value="sim">Sim<br></label>
+				<label><input type="radio" name="q20" value="nao">Não<br></label>
+				<label><input type="radio" name="q20" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>21 - Antes de começar a escrever uma redação ou prova subjetiva, preparo mentalmente o que vou
+					responder?</legend>
+				<label><input type="radio" name="q21" value="sim">Sim<br></label>
+				<label><input type="radio" name="q21" value="nao">Não<br></label>
+				<label><input type="radio" name="q21" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>22 - Termino minhas provas escritas rapidamente e entrego-as sem revisar o que fiz?</legend>
+				<label><input type="radio" name="q22" value="sim">Sim<br></label>
+				<label><input type="radio" name="q22" value="nao">Não<br></label>
+				<label><input type="radio" name="q22" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>23 - Procuro entender cada ponto da matéria à medida que vou estudando, para não ter que voltar
+					atrás a fim de esclarecer pontos duvidosos?</legend>
+				<label><input type="radio" name="q23" value="sim">Sim<br></label>
+				<label><input type="radio" name="q23" value="nao">Não<br></label>
+				<label><input type="radio" name="q23" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>24 - Trato de relacionar os assuntos que se estudam em uma matéria com os outros de diferentes
+					matérias?</legend>
+				<label><input type="radio" name="q24" value="sim">Sim<br></label>
+				<label><input type="radio" name="q24" value="nao">Não<br></label>
+				<label><input type="radio" name="q24" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>25 - Procuro resumir, classificar e sistematizar os fatos aprendidos, associandoos com matérias
+					e fatos que estudei anteriormente?</legend>
+				<label><input type="radio" name="q25" value="sim">Sim<br></label>
+				<label><input type="radio" name="q25" value="nao">Não<br></label>
+				<label><input type="radio" name="q25" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>26 - Trato de estudar apenas o indispensável para o teste?</legend>
+				<label><input type="radio" name="q26" value="sim">Sim<br></label>
+				<label><input type="radio" name="q26" value="nao">Não<br></label>
+				<label><input type="radio" name="q26" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>27 - Quando preciso de conhecimento das matérias básicas que já estudei, tenho a impressão de
+					que não sei mais nada?</legend>
+				<label><input type="radio" name="q27" value="sim">Sim<br></label>
+				<label><input type="radio" name="q27" value="nao">Não<br></label>
+				<label><input type="radio" name="q27" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>28 - Antes de começar a fazer as provas, leio cuidadosamente as instruções?</legend>
+				<label><input type="radio" name="q28" value="sim">Sim<br></label>
+				<label><input type="radio" name="q28" value="nao">Não<br></label>
+				<label><input type="radio" name="q28" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>29 - Quando não gosto de uma matéria ou de um professor, não consigo estudar o assunto?</legend>
+				<label><input type="radio" name="q29" value="sim">Sim<br></label>
+				<label><input type="radio" name="q29" value="nao">Não<br></label>
+				<label><input type="radio" name="q29" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>30 - Sinto-me sempre cansado, com sono ou indiferente para assimilar os assuntos?</legend>
+				<label><input type="radio" name="q30" value="sim">Sim<br></label>
+				<label><input type="radio" name="q30" value="nao">Não<br></label>
+				<label><input type="radio" name="q30" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+			<fieldset>
+				<legend>31 - Deixo para estudar na véspera da prova e me sinto sufocado com a quantidade de assuntos?
+				</legend>
+				<label><input type="radio" name="q31" value="sim">Sim<br></label>
+				<label><input type="radio" name="q31" value="nao">Não<br></label>
+				<label><input type="radio" name="q31" value="as vezes">Às vezes<br></label>
+			</fieldset>
+			<br></br>
+		</form>
+		<button type="button" onclick="submitForm()">Analisar</button>
+		<button type="button" onclick="resetForm()">Limpar</button>
+		<p></p>
+		<div id="feedback"></div>
+		<p></p>
+	</div>
+	<script>
+		function submitForm() {
+			const q1 = document.querySelector('input[name="q1"]:checked');
+			const q2 = document.querySelector('input[name="q2"]:checked');
+			const q3 = document.querySelector('input[name="q3"]:checked');
+			const q4 = document.querySelector('input[name="q4"]:checked');
+			const q5 = document.querySelector('input[name="q5"]:checked');
+			const q6 = document.querySelector('input[name="q6"]:checked');
+			const q7 = document.querySelector('input[name="q7"]:checked');
+			const q8 = document.querySelector('input[name="q8"]:checked');
+			const q9 = document.querySelector('input[name="q9"]:checked');
+			const q10 = document.querySelector('input[name="q10"]:checked');
+			const q11 = document.querySelector('input[name="q11"]:checked');
+			const q12 = document.querySelector('input[name="q12"]:checked');
+			const q13 = document.querySelector('input[name="q13"]:checked');
+			const q14 = document.querySelector('input[name="q14"]:checked');
+			const q15 = document.querySelector('input[name="q15"]:checked');
+			const q16 = document.querySelector('input[name="q16"]:checked');
+			const q17 = document.querySelector('input[name="q17"]:checked');
+			const q18 = document.querySelector('input[name="q18"]:checked');
+			const q19 = document.querySelector('input[name="q19"]:checked');
+			const q20 = document.querySelector('input[name="q20"]:checked');
+			const q21 = document.querySelector('input[name="q21"]:checked');
+			const q22 = document.querySelector('input[name="q22"]:checked');
+			const q23 = document.querySelector('input[name="q23"]:checked');
+			const q24 = document.querySelector('input[name="q24"]:checked');
+			const q25 = document.querySelector('input[name="q25"]:checked');
+			const q26 = document.querySelector('input[name="q26"]:checked');
+			const q27 = document.querySelector('input[name="q27"]:checked');
+			const q28 = document.querySelector('input[name="q28"]:checked');
+			const q29 = document.querySelector('input[name="q29"]:checked');
+			const q30 = document.querySelector('input[name="q30"]:checked');
+			const q31 = document.querySelector('input[name="q31"]:checked');
+
+
+
+			if (!q1 || !q2 || !q3 || !q4 || !q5 || !q6 || !q7 || !q8 || !q9 || !q10 || !q11 || !q12 || !q13 || !q14 || !q15 || !q16 || !q17 || !q18 || !q19 || !q20 || !q21 || !q22 || !q23 || !q24 || !q25 || !q26 || !q27 || !q28 || !q29 || !q30 || !q31) {
+				document.getElementById("feedback").innerHTML = "Por favor, responda todas as questões.";
+			} else {
+				let pontuacao = 0;
+
+				if (q1.value === "sim") {
+					pontuacao += 1;
+				} else if (q1.value === "nao") {
+					pontuacao += 3;
+				} else if (q1.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q2.value === "sim") {
+					pontuacao += 1;
+				} else if (q2.value === "nao") {
+					pontuacao += 3;
+				} else if (q2.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q3.value === "sim") {
+					pontuacao += 3;
+				} else if (q3.value === "nao") {
+					pontuacao += 1;
+				} else if (q3.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q4.value === "sim") {
+					pontuacao += 3;
+				} else if (q4.value === "nao") {
+					pontuacao += 1;
+				} else if (q4.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q5.value === "sim") {
+					pontuacao += 1;
+				} else if (q5.value === "nao") {
+					pontuacao += 3;
+				} else if (q5.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q6.value === "sim") {
+					pontuacao += 1;
+				} else if (q6.value === "nao") {
+					pontuacao += 3;
+				} else if (q6.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q7.value === "sim") {
+					pontuacao += 1;
+				} else if (q7.value === "nao") {
+					pontuacao += 3;
+				} else if (q7.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q8.value === "sim") {
+					pontuacao += 1;
+				} else if (q8.value === "nao") {
+					pontuacao += 3;
+				} else if (q8.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q9.value === "sim") {
+					pontuacao += 1;
+				} else if (q9.value === "nao") {
+					pontuacao += 3;
+				} else if (q9.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q10.value === "sim") {
+					pontuacao += 1;
+				} else if (q10.value === "nao") {
+					pontuacao += 3;
+				} else if (q10.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q11.value === "sim") {
+					pontuacao += 1;
+				} else if (q11.value === "nao") {
+					pontuacao += 3;
+				} else if (q11.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q12.value === "sim") {
+					pontuacao += 1;
+				} else if (q12.value === "nao") {
+					pontuacao += 3;
+				} else if (q12.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q13.value === "sim") {
+					pontuacao += 1;
+				} else if (q13.value === "nao") {
+					pontuacao += 3;
+				} else if (q13.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q14.value === "sim") {
+					pontuacao += 1;
+				} else if (q14.value === "nao") {
+					pontuacao += 3;
+				} else if (q14.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q15.value === "sim") {
+					pontuacao += 1;
+				} else if (q15.value === "nao") {
+					pontuacao += 3;
+				} else if (q15.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q16.value === "sim") {
+					pontuacao += 1;
+				} else if (q16.value === "nao") {
+					pontuacao += 3;
+				} else if (q16.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q17.value === "sim") {
+					pontuacao += 3;
+				} else if (q17.value === "nao") {
+					pontuacao += 1;
+				} else if (q17.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q18.value === "sim") {
+					pontuacao += 1;
+				} else if (q18.value === "nao") {
+					pontuacao += 3;
+				} else if (q18.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q19.value === "sim") {
+					pontuacao += 1;
+				} else if (q19.value === "nao") {
+					pontuacao += 3;
+				} else if (q19.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q20.value === "sim") {
+					pontuacao += 1;
+				} else if (q20.value === "nao") {
+					pontuacao += 3;
+				} else if (q20.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q21.value === "sim") {
+					pontuacao += 3;
+				} else if (q21.value === "nao") {
+					pontuacao += 1;
+				} else if (q21.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q22.value === "sim") {
+					pontuacao += 1;
+				} else if (q22.value === "nao") {
+					pontuacao += 3;
+				} else if (q22.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q23.value === "sim") {
+					pontuacao += 3;
+				} else if (q23.value === "nao") {
+					pontuacao += 1;
+				} else if (q23.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q24.value === "sim") {
+					pontuacao += 3;
+				} else if (q24.value === "nao") {
+					pontuacao += 1;
+				} else if (q24.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q25.value === "sim") {
+					pontuacao += 3;
+				} else if (q25.value === "nao") {
+					pontuacao += 1;
+				} else if (q25.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q26.value === "sim") {
+					pontuacao += 1;
+				} else if (q26.value === "nao") {
+					pontuacao += 3;
+				} else if (q26.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q27.value === "sim") {
+					pontuacao += 1;
+				} else if (q27.value === "nao") {
+					pontuacao += 3;
+				} else if (q27.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q28.value === "sim") {
+					pontuacao += 3;
+				} else if (q28.value === "nao") {
+					pontuacao += 1;
+				} else if (q28.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q29.value === "sim") {
+					pontuacao += 1;
+				} else if (q29.value === "nao") {
+					pontuacao += 3;
+				} else if (q29.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q30.value === "sim") {
+					pontuacao += 1;
+				} else if (q30.value === "nao") {
+					pontuacao += 3;
+				} else if (q30.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				if (q31.value === "sim") {
+					pontuacao += 1;
+				} else if (q31.value === "nao") {
+					pontuacao += 3;
+				} else if (q31.value === "as vezes") {
+					pontuacao += 2;
+				}
+
+				let feedback;
+
+				if (pontuacao <= 64) {
+					feedback = "Reorganizar seu horário e sua forma de estudar pode ser uma tarefa desafiadora, mas é essencial se você quiser melhorar seu desempenho acadêmico. É possível que você esteja distribuindo inadequadamente seu tempo para cada matéria ou não esteja utilizando a metodologia de estudo mais eficaz para o seu estilo de aprendizagem. Para começar, faça uma lista de todas as suas tarefas diárias e obrigações, incluindo seus compromissos de estudo e tempo livre. Em seguida, identifique as horas do dia em que você é mais produtivo e planeje suas sessões de estudo nesses momentos. Certifique-se de que cada disciplina receba a quantidade de tempo necessária para você compreendê-la adequadamente. Além disso, avalie sua metodologia de estudo atual. Você está apenas lendo e sublinhando seus livros didáticos ou está utilizando técnicas de estudo mais eficazes, como fazer resumos, elaborar mapas mentais e fazer perguntas e respostas sobre o material? Experimente diferentes técnicas e descubra qual funciona melhor para você. Também é importante lembrar-se de tirar pequenas pausas durante as sessões de estudo e manter-se hidratado e bem alimentado. Estar fisicamente saudável e mentalmente alerta é fundamental para um aprendizado eficaz. Por fim, não se esqueça de ser realista em relação às suas expectativas. Não espere mudanças drásticas de um dia para o outro, e esteja disposto a fazer ajustes ao longo do caminho. Com consistência e dedicação, você pode reorganizar seu horário e sua forma de estudar e obter melhores resultados acadêmicos.";
+				} else if (pontuacao <= 80) {
+					feedback = "Você tem pontos positivos em sua forma de estudar, mas algumas falhas em seus hábitos poderão prejudicar seus resultados. É ótimo saber que você tem pontos positivos em sua forma de estudar, mas é importante estar ciente das falhas que podem estar prejudicando seus resultados acadêmicos. Identificar e corrigir os hábitos que te prejudicam é fundamental para alcançar seus objetivos de aprendizado. Uma das primeiras coisas que você pode fazer é avaliar sua rotina diária e identificar onde está gastando seu tempo livre. Se você está desperdiçando tempo em redes sociais ou jogos, isso pode estar prejudicando seu desempenho acadêmico. Tente limitar o tempo que você gasta em atividades não relacionadas ao estudo e reserve tempo suficiente para as suas atividades acadêmicas. Além disso, avalie sua metodologia de estudo atual e veja se está utilizando as técnicas mais eficazes. Tente explorar técnicas de estudo diferentes, como elaborar resumos, fazer perguntas e respostas sobre o material, fazer mapas mentais, usar flash cards, entre outros. Descubra qual técnica funciona melhor para você e utilize-a para estudar com mais eficiência. Outra coisa importante é manter um equilíbrio saudável entre suas obrigações acadêmicas e seu bem-estar físico e mental. Certifique-se de estar dormindo o suficiente, se exercitando regularmente e se alimentando adequadamente. Estar fisicamente saudável e mentalmente alerta é fundamental para um aprendizado eficaz. Por fim, esteja aberto a receber feedback e procurar ajuda quando necessário. Se você estiver enfrentando dificuldades em uma disciplina específica, não hesite em buscar a ajuda de um professor ou tutor. Eles podem oferecer a orientação e o suporte de que você precisa para superar seus desafios acadêmicos. Lembre-se de que corrigir esses hábitos negativos pode levar tempo e esforço, mas é um passo importante em direção ao sucesso acadêmico. Seja consistente e perseverante em seus esforços e você verá resultados positivos ao longo do tempo.";
+				} else {
+					feedback = "Parabéns por estar desenvolvendo ótimos hábitos de estudo! É um grande passo em direção ao sucesso acadêmico. Continuar com esses bons hábitos é fundamental para manter seu desempenho acadêmico em um nível elevado. Certifique-se de manter um horário de estudo consistente e dedicar tempo suficiente a cada disciplina. Utilize técnicas de estudo eficazes, como elaborar resumos, fazer perguntas e respostas sobre o material, fazer mapas mentais, entre outras. Descubra qual técnica funciona melhor para você e utilize-a para estudar com mais eficiência. Também é importante manter um equilíbrio saudável entre suas obrigações acadêmicas e seu bem-estar físico e mental. Certifique-se de estar dormindo o suficiente, se exercitando regularmente e se alimentando adequadamente. Estar fisicamente saudável e mentalmente alerta é fundamental para um aprendizado eficaz. Além disso, esteja aberto a receber feedback e procurar ajuda quando necessário. Se você estiver enfrentando dificuldades em uma disciplina específica, não hesite em buscar a ajuda de um professor ou tutor. Eles podem oferecer a orientação e o suporte de que você precisa para superar seus desafios acadêmicos. Lembre-se de que desenvolver bons hábitos de estudo é um processo contínuo e que exige esforço e dedicação. Continue se esforçando e mantenha-se consistente em seus esforços. Com o tempo, você verá que seus hábitos de estudo eficazes o ajudarão a alcançar seus objetivos acadêmicos e profissionais.";
+				}
+
+				document.getElementById("feedback").innerHTML = "Sua pontuação foi: " + pontuacao + ". " + feedback;
+			}
+		}
+		function resetForm() {
+			const form = document.querySelector('form');
+			form.reset();
+			document.getElementById("feedback").innerHTML = "";
+		}
+	</script>
+	<br></br>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p>Desenvolvido por:</p>
+				</div>
+				<div class="col-md-6">
+					<a href="https://daniloas.com/" target="_blank">
+						<img src="./assets/daniloas.png" alt="Logo Exemplo">
+					</a>
+				</div>
+				<div class="socialmidia">
+					<a href="https://www.instagram.com/daniloas.com_/" class="fa fa-instagram"></a>
+					<a href="https://www.linkedin.com/in/daniloandradesantos/" class="fa fa-linkedin"></a>
+					<a href="https://www.youtube.com/@daniloas.com_" class="fa fa-youtube"></a>
+                    <a href="https://github.com/daniloasdotcom" class="fa fa-github" style="color:white"></a>
+					<!-- Adicione mais redes sociais aqui, se desejar -->
+				</div>
+				<div class="col-md-6">
+					<p>©2023 Danilo Andrade. Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script>
+		var coll = document.getElementsByClassName("collapsiblemenu");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
+			});
+		}
+	</script>
+</body>
+
+</html>
