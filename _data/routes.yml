@@ -19,9 +19,6 @@
 - label: CronogramaFA01
   route: /cronogramafa01
 
-- label: CronogramaBL
-  route: /cronogramabl
-
 - label: Quiz
   route: /quiz
 
