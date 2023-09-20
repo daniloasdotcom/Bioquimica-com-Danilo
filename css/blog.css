@@ -74,8 +74,8 @@ main {
 }
 
 .myposts a {
-    color: #fff; /* Cor dos links */
-    text-decoration: none; /* Remover sublinhado dos links */
+    color: #ffffbf; /* Cor dos links */
+    text-decoration: underline; /* Remover sublinhado dos links */
     font-weight: bold; /* Texto em negrito */
     font-size: 24px; /* Tamanho da fonte do título*/
 }

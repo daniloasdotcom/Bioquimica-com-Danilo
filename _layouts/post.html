@@ -19,7 +19,9 @@
     <main>
         <article class="post">
                 <h1>{{ page.title }}</h1>
-                <p class="post-date">{{ page.date | date: "%-d %b %Y | %H:%M" }}</p>
+                <p class="post-date">{{ page.date | date: "%d de %B de %Y" }}</p>
+                <p class="post-date">Autor: {{ page.author }}</p>
+                <p class="post-date">-----------------</p>
             <div class="post-content">
                 {{ content }}
             </div>

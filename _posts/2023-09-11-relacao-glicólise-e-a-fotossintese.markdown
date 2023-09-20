@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "A Glicólise e a Fotossíntese: A Dança da Energia na Cadeia Alimentar"
+title: "A Glicólise e a Fotossíntese: Carboidratos fluem entre organismos"
 excerpt: A vida na Terra é alimentada por uma intrincada teia de processos bioquímicos que transformam a energia solar em alimento. Do centro da cena, destacam-se dois processos fundamentais, a glicólise e a fotossíntese. Neste artigo, exploraremos a relação entre a glicólise e a produção de carboidratos pelas plantas via fotossíntese e como esses processos são interligados na cadeia alimentar.
 date: 2023-09-11
-author: Seu Nome
+author: Professor Danilo
 ---
 
 A vida na Terra é alimentada por uma intrincada teia de processos bioquímicos que transformam a energia solar em alimento. Do centro da cena, destacam-se dois processos fundamentais: a glicólise e a fotossíntese. Neste artigo, exploraremos a relação entre a glicólise e a produção de carboidratos pelas plantas via fotossíntese e como esses processos são interligados na cadeia alimentar.
