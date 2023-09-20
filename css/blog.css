@@ -74,7 +74,7 @@ main {
 }
 
 .myposts a {
-    color: #ffffbf; /* Cor dos links */
+    color: black; /* Cor dos links */
     text-decoration: underline; /* Remover sublinhado dos links */
     font-weight: bold; /* Texto em negrito */
     font-size: 24px; /* Tamanho da fonte do título*/
@@ -91,12 +91,12 @@ main {
 
 /* Ajustar a cor do texto e da data para branco */
 .myposts p {
-    color: #fff;
+    color: black;
     font-size: 18px;
 }
 
 .post-title-container {
-    background-color: black; /* Cor de fundo azul */
+    background-color: white; /* Cor de fundo azul */
     padding: 20px; /* Espaçamento interno */
     border-radius: 20px; /* Borda arredondada */
     border-color: #fff;
@@ -116,4 +116,5 @@ main {
 /* Efeito de hover para o título do post */
 .post-title:hover {
     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    color: blue;
 }
