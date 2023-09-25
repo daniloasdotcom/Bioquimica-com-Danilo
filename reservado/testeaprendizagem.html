@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+</html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bioquímica</title>
+	<link rel="stylesheet" href="./style/style.css">
+	<script src="./main.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1 style="color: white">BioQuímica - Professor Danilo</h1>
+		<hr color="white" size="1" width="80%" align="center" noshade>
+		<nav>
+			<a class ="linkmenu" href="index.html">HOME</a>
+			
+			<button type="button" class="collapsiblemenu">MENU BB1/BB2</button>
+			<div class="contentmenu">
+				<nav>
+					<a href="conteudo.html">CONTEÚDOS / QUESTIONÁRIOS - BB1/BB2</a>
+					<a href="cronogramaag1ag2.html">CRONOGRAMA - BB1/BB2</a>
+				</nav>
+			</div>
+			<!---
+			<div style="padding-bottom: 10px;"></div>
+			<button type="button" class="collapsiblemenu">MENU NUTRIÇÃO</button>
+			<div class="contentmenu">
+				<nav>
+					<a href="conteudont.html">CONTEÚDOS / QUESTIONÁRIOS - NT</a>
+					<a href="cronogramant.html">CRONOGRAMA - NT</a>
+				</nav>
+			</div>
+			-->
+			<div style="padding-bottom: 10px;"></div>
+			<button type="button" class="collapsiblemenu">QUIZ E TESTES</button>
+			<div class="contentmenu">
+				<nav>
+					<a class ="linkmenu" href="quiz.html">QUIZ</a>
+					<a class ="linkmenu" href="comoestudo.html">TESTE DE APRENDIZAGEM</a>
+				</nav>
+			</div>
+			<a class ="linkmenu" href="complementos.html">CONTEÚDOS COMPLEMENTARES</a>		
+			<!-- <a class ="linkmenu" href="blog.html">BLOG</a>-->
+			<!--<a href="estude.html">ESTUDE MELHOR</a>-->
+			
+		</nav>
+		<hr color="white" size="1" width="80%" align="center" noshade>
+	</header>
+	<div class="margem">
+		<h2>Lista de Perguntas e respostas para testar seus conhecimentos</h2>
+		<p class="um">Caros alunos, hoje eu gostaria de convidá-los a testar seus conhecimentos e habilidades
+			respondendo ao quiz que eu preparei especialmente para vocês. Esse tipo de atividade é uma ótima
+			oportunidade para vocês colocarem em prática tudo o que aprenderam e verificarem o quanto realmente
+			absorveram do conteúdo.</p>
+		<p class="um">A resolução do quiz é uma forma de identificar pontos fortes e fracos em seu conhecimento,
+			permitindo que vocês foquem em áreas que precisam de mais atenção e aprimorem suas habilidades.</p>
+	</div>
+	<h2 style="text-align: center;">Clique nos títulos dos quadros</h2>
+	<div class="grid-container">
+		<div class="grid-item">
+			<a href="comoestudo.html">Como Estudo</a>
+			<p>Obtenha um feedback sobre seu modo atual de aprendizagem</p>
+		</div>
+		<div class="grid-item">
+			<a href="estiloaprendizagem.html">Estilo de aprendizagem</a>
+			<p>Visual, Auditivo, Cinestésico ou Análitico?</p>
+		</div>
+	</div>
+	<br></br>
+	<div class="margem">
+		<p class="esquerda" lign="left"><b>Professor:</b> Danilo Andrade</p>
+		<p class="esquerda" lign="left"><b>Contato:</b> danilo_as@live.com</p>
+	</div>
+	<script>
+		var coll = document.getElementsByClassName("collapsiblemenu");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
+			});
+		}
+	</script>
+</body>
+
+</html>
