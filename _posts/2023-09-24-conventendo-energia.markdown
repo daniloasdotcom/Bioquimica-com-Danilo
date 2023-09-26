@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Quebra-se carboidratos e produz-se energia"
-excerpt: Pela fotossíntese carbonos em um estado mais oxidado (pobre em elétrons) sob a forma de CO2 são então reduzidos (ganham elétrons) sob a forma de carboidratos. Estes carboidratos com carbonos ricos em elétrons podem então ser aproveitados como fonte de energia sendo quebrados para extraís prótons e elétrons que alimentam um maquinário celular produtor de energia sob a forma de ATP.
+excerpt: Pela fotossíntese carbonos em um estado mais oxidado (pobre em elétrons) sob a forma de CO<sub>2</sub> são então reduzidos (ganham elétrons) sob a forma de carboidratos. Estes carboidratos com carbonos ricos em elétrons podem então ser aproveitados como fonte de energia sendo quebrados para extraís prótons e elétrons que alimentam um maquinário celular produtor de energia sob a forma de ATP.
 date: 2023-09-24
 author: Professor Danilo
 ---
 
-Pela fotossíntese carbonos em um estado mais oxidado (pobre em elétrons) sob a forma de CO2 são então reduzidos (ganham elétrons) sob a forma de carboidratos. Estes carboidratos com carbonos ricos em elétrons podem então seguir diferentes caminhos pelas chamadas vias ou rotas bioquímicas. Em uma delas, a respiração celular, eletróns e prótons são previamente extraídos dos carboidratos e empacotados em móleculas transportadoras de elétrons e prontos (O NADH e o FADH2) que os levam até a usina energética celular que se localiza no espaço interno da mitocôndria.
+Pela fotossíntese carbonos em um estado mais oxidado (pobre em elétrons) sob a forma de CO<sub>2</sub> são então reduzidos (ganham elétrons) sob a forma de carboidratos. Estes carboidratos com carbonos ricos em elétrons podem então seguir diferentes caminhos pelas chamadas vias ou rotas bioquímicas. Em uma delas, a respiração celular, eletróns e prótons são previamente extraídos dos carboidratos e empacotados em móleculas transportadoras de elétrons e prontos (O NADH e o FADH2) que os levam até a usina energética celular que se localiza no espaço interno da mitocôndria.
 
 Essa usina é chamada de cadeia respiratória e pode ser divida em duas etapas:
 
