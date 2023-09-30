@@ -350,6 +350,13 @@ th {
     cursor: pointer;
 }
 
+.grid-item:hover {
+    background-color: rgb(167, 151, 13);
+    /* Cor de fundo do botão */
+    color: black;
+    /* Cor do texto do botão */
+}
+
 .grid-item a {
     text-decoration: none;
     color: #333;
