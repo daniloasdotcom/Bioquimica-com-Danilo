@@ -4,7 +4,8 @@ title: "Quebra-se carboidratos e produz-se energia"
 excerpt: Pela fotossíntese carbonos em um estado mais oxidado (pobre em elétrons) sob a forma de CO<sub>2</sub> são então reduzidos (ganham elétrons) sob a forma de carboidratos. Estes carboidratos com carbonos ricos em elétrons podem então ser aproveitados como fonte de energia sendo quebrados para extraís prótons e elétrons que alimentam um maquinário celular produtor de energia sob a forma de ATP.
 date: 2023-09-24
 author: Professor Danilo
-about: Danilo é Professor de Bioquímca na UFES, adora resolver problemas e encontrar conexões que explicam melhor o conhecimento científico. Possui formação acadêmica em Agronomia e é autodidata em programação. Com sua esposa criou o projeto "Código Agro" e desenvolveu que apoia esse site.
+about: Danilo é Professor de Bioquímica na UFES, adora resolver problemas e encontrar conexões que explicam melhor o conhecimento científico. Possui formação acadêmica em Agronomia e é autodidata em programação. Com sua esposa criou o projeto "Código Agro" que apoia a manutenção deste site.
+imagem: /assets/images/autor_danilo.png
 ---
 
 Pela fotossíntese carbonos em um estado mais oxidado (pobre em elétrons) sob a forma de CO<sub>2</sub> são então reduzidos (ganham elétrons) sob a forma de carboidratos. Estes carboidratos com carbonos ricos em elétrons podem então seguir diferentes caminhos pelas chamadas vias ou rotas bioquímicas. Em uma delas, a respiração celular, eletróns e prótons são previamente extraídos dos carboidratos e empacotados em móleculas transportadoras de elétrons e prótons (o NADH e o FADH<sub>2</sub>) que os levam até a usina energética celular que se localiza no espaço interno da mitocôndria.

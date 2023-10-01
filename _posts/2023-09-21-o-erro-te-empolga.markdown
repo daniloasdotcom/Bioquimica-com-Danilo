@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "O erro é um indicador de diversão difarçada de algo ruim"
+title: "O erro é um indicador de diversão difarçado de algo ruim"
 excerpt: Não sei quanto a você, mas para mim o erro é uma oportunidade de diversão. É como se alguém tivesse me desafiando - "Você não conseguiu, te desafio a tentar novamente". Se algo está dando errado sentimentos de frustração, desespero, ansiedade e impaciência me sobrevem. Contudo sejamos sinceros, depois do turbilhão de sentimentos indesejados a verdade é que quando acertamos a sensação de vitória tem um sabor muito mais gostoso.
 date: 2023-09-21
 author: Professor Danilo
-about: Danilo é Professor de Bioquímca na UFES, adora resolver problemas e encontrar conexões que explicam melhor o conhecimento científico. Possui formação acadêmica em Agronomia e é autodidata em programação. Com sua esposa criou o projeto "Código Agro" e desenvolveu que apoia esse site.
+about: Danilo é Professor de Bioquímica na UFES, adora resolver problemas e encontrar conexões que explicam melhor o conhecimento científico. Possui formação acadêmica em Agronomia e é autodidata em programação. Com sua esposa criou o projeto "Código Agro" que apoia a manutenção deste site.
+imagem: /assets/images/autor_danilo.png
 ---
 
 Reconheço que nem todos os erros são desejáveis e bem-vindos. Alguns erros podem ter consequências sérias e indesejadas, e é natural que nos sintamos frustrados ou preocupados quando cometemos um erro que prejudica a nós mesmos ou aos outros.

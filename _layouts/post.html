@@ -18,14 +18,15 @@
     </header>
     <main style="background-color: white;">
         <article class="post">
-                <h1>{{ page.title }}</h1>
-                
-                <p class="post-date">{{ page.date | date: "%d de %B de %Y" }}</p>
-                <p class="post-date">Autor: {{ page.author }}</p>
-                <p class="post-date">-----------------</p>
+            <div style="background-color: #415449; padding: 20px; height: 250px; border-radius: 10px; overflow: hidden;">
+                <img src="{{ page.imagem }}" alt="Texto Alternativo da Imagem" width="140" height="140" style="float: left; margin-right: 10px; margin-bottom: 10px">
+                <h1 style="margin: 0; color: white;">{{ page.title }}</h1>
+                <p class="post-date" style="color: white;">{{ page.author }}</p>
+              </div>
             <div class="post-content">
                 {{ content }}
                 <p class="post-date">-----------------</p>
+                <p class="post-date"><b>Sobre o autor</b></p>
                 <p class="post-date"><i>{{ page.about }}</i></p>
             </div>
         </article>

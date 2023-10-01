@@ -4,7 +4,8 @@ title: "A Glicólise e a Fotossíntese: Carboidratos fluem entre organismos"
 excerpt: A vida na Terra é alimentada por uma intrincada teia de processos bioquímicos que transformam a energia solar em alimento. Do centro da cena, destacam-se dois processos fundamentais, a glicólise e a fotossíntese. Neste artigo, exploraremos a relação entre a glicólise e a produção de carboidratos pelas plantas via fotossíntese e como esses processos são interligados na cadeia alimentar.
 date: 2023-09-11
 author: Professor Danilo
-about: Danilo é Professor de Bioquímca na UFES, adora resolver problemas e encontrar conexões que explicam melhor o conhecimento científico. Possui formação acadêmica em Agronomia e é autodidata em programação. Com sua esposa criou o projeto "Código Agro" e desenvolveu que apoia esse site.
+about: Danilo é Professor de Bioquímica na UFES, adora resolver problemas e encontrar conexões que explicam melhor o conhecimento científico. Possui formação acadêmica em Agronomia e é autodidata em programação. Com sua esposa criou o projeto "Código Agro" que apoia a manutenção deste site.
+imagem: /assets/images/autor_danilo.png
 ---
 
 A vida na Terra é alimentada por uma intrincada teia de processos bioquímicos que transformam a energia solar em alimento. Do centro da cena, destacam-se dois processos fundamentais: a glicólise e a fotossíntese. Neste artigo, exploraremos a relação entre a glicólise e a produção de carboidratos pelas plantas via fotossíntese e como esses processos são interligados na cadeia alimentar.
