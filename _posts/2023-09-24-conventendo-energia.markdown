@@ -31,7 +31,7 @@ Na figura acima a usina (_Cadeia Respiratória_) é alimentada pelos elétrons q
 ## O processo de quimiosmose
 Esse aumento de concentração de prótons é importante pois dessa forma cria-se energia potencial (muito H<sup>+</sup> concentrado no espaço intermembrana com tendência de se movimentar para a matriz mitocôndrial) que será usada para gerar energia cinética movendo uma "_catraca_" proteica (a ATP-Sintase) que por sua vez, ao girar, unirá ADP mais fosfato inorgânico produzindo assim energia química na forma de ATP (nossa querida mólecula de adenosida trifosfato).
 
-## Os elétrons são reutilizados como cimento para ligar H<sup>+</sup> e Oxigênio
+## Os elétrons são reutilizados como cimento para unir H<sup>+</sup> e Oxigênio
 Veja novamente a animação da cadeia respiratória. Observe que os elétrons viajam entre as estruturas azuis de nossa representação, e por fim chegam ao seu destino final: eles juntamente com prótons presentes na matriz mitocondrial e oxigênio são unidos para formar H<sub>2</sub>O.
 
 ## O elétrons seguem viagem
