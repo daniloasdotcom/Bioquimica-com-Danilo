@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Carbonos e elétrons fluem entre os organismos"
+title: "Desmonta-se carboidratos, libera-se energia!"
 excerpt: Pela fotossíntese carbonos em um estado mais oxidado (pobre em elétrons) sob a forma de CO<sub>2</sub> são então reduzidos (ganham elétrons) sob a forma de carboidratos. Estes carboidratos com carbonos ricos em elétrons podem então ser aproveitados como fonte de energia sendo quebrados para extraís prótons e elétrons que alimentam um maquinário celular produtor de energia sob a forma de ATP.
 date: 2023-09-24
 author: Professor Danilo
