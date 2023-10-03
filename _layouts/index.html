@@ -28,10 +28,9 @@
 
 				<p class="grid">Este site foi projetado para fornecer as informações necessárias para o bom andamento das suas atividades na disciplina de Bioquímica. Acesse o menu da sua turma para baixar os slides, os exercícios para casa, conferir o registro de presenças e também o cronograma da disciplina.</p>
 
-				<div class="socialmidia">
+				<div class="socialmidia" style="align-items: center;">
 					<a href="https://www.instagram.com/daniloas.com_/" class="fa fa-instagram" style="color:black"></a>
 					<a href="https://www.linkedin.com/in/daniloandradesantos/" class="fa fa-linkedin" style="color:black"></a>
-					<a href="https://www.youtube.com/@daniloas.com_" class="fa fa-youtube" style="color:black"></a>
 					<a href="https://github.com/daniloasdotcom" class="fa fa-github" style="color: black"></a>
 					<a href="https://daniloas.com/" class="fa fa-globe" style="color:black"></a>
 					<!-- Adicione mais redes sociais aqui, se desejar -->
@@ -47,6 +46,18 @@
 		</div>
 		<br></br>
 		<br></br>
+
+		<h2 style="color: #FFFFFF" align="center">POSTS RECENTES</h2>
+		<div class="grid-container">
+			<div class="grid-item-home" onclick="redirecionarParaURL('{{ site.posts[0].url }}')">
+				<a href={{ site.posts[0].url }}>{{ site.posts[0].title }}</a>
+				<p>{{ site.posts[0].content | truncatewords: 30 }}</p>
+			</div>
+			<div class="grid-item-home" onclick="redirecionarParaURL('{{ site.posts[1].url }}')">
+				<a href={{ site.posts[1].url }}>{{ site.posts[1].title }}</a>
+				<p>{{ site.posts[1].content | truncatewords: 30 }}</p>
+			</div>
+		</div>
 		<br></br>
 
 	</main>
@@ -89,6 +100,9 @@
 					content.style.display = "block";
 				}
 			});
+		}
+		function redirecionarParaURL(url) {
+			window.location.href = url;
 		}
 	</script>
 </body>

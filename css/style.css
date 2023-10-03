@@ -354,12 +354,46 @@ th {
     cursor: pointer;
 }
 
+.grid-item-home {
+    height: 250px;
+    background-color: #eee;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.grid-item-home:hover {
+    background-color: rgb(167, 151, 13);
+    /* Cor de fundo do botão */
+    color: black;
+    /* Cor do texto do botão */
+}
+
 .grid-item:hover {
     background-color: rgb(167, 151, 13);
     /* Cor de fundo do botão */
     color: black;
     /* Cor do texto do botão */
 }
+
+.grid-item-home a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.grid-item-home p {
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
 
 .grid-item a {
     text-decoration: none;
