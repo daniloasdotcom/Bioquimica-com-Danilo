@@ -8,7 +8,7 @@ excerpt: Conhecimento prévio se refere às informações e experiências sobre 
 imagem: /assets/images/autor_danilo.png
 ---
 
-Desenvolver _conhecimento prévio_ é um dos pilares fundamentais para melhoraria continua do seu processo de aprendizagem, pensamento crítico e raciocínio lógico na resolução de problemas, assimilação e interpretação de novas informações - Sim! Esse post também serve para você cientísta.
+Desenvolver _conhecimento prévio_ é um dos pilares fundamentais para melhoria continua do seu processo de aprendizagem, pensamento crítico e raciocínio lógico na resolução de problemas, assimilação e interpretação de novas informações - Sim! Esse post também serve para você cientísta.
 
 ## O que é exatamente é o conhecimento prévio?
 Conhecimento prévio refere-se as informações, conceitos e experiências sobre um determinado assunto que já estão armazenados em sua memória de longo prazo (informações já guardadas e muitas vezes de fácil acesso em sua mente). Podemos dizer que é _tudo aquilo que você já sabe_.
@@ -18,7 +18,7 @@ A memória de trabalho é um tipo de estratégia de retenção e de manipulaçã
 
 <figure>
     <img src="/assets/images/modelo_memorias.png" style="width:110%">
-    <figcaption align = "center"><i>A memória de trabalho alimenta a memória de longo prazo por exposição e experiência. E a memória de longo prazo ajuda a memória de trabalho na solução de problemas.</i></figcaption>
+    <figcaption align = "center"><i>A memória de trabalho alimenta a memória de longo prazo por exposição e experiência. E a memória de longo prazo atua como um fonte de informação, auxiliando a memória de trabalho na solução de problemas.</i></figcaption>
 </figure>
 
 A memória de trabalho é tudo aqui que você está aprendendo neste momento. Lembra quando você começou a aprender a dirigir? Passar a marcha, ao mesmo tempo que segura a embrenhagem e presta atenção ao trânsito... quanta coisa! Pois é... essa é sua memória de trabalho tentando dar conta de tanta informação. Com o tempo essas tarefas vão sendo alocadas e armazenadas na sua memória de longo prazo, construíndo assim o conhecimento prévio. A partir de então você faz tudo de forma automatizada...
