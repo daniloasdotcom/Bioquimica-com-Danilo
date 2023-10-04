@@ -8,7 +8,7 @@ excerpt: Conhecimento prévio se refere às informações e experiências sobre 
 imagem: /assets/images/autor_danilo.png
 ---
 
-Desenvolver _conhecimento prévio_ é um dos pilares fundamentais para melhoria continua do seu processo de aprendizagem, pensamento crítico e raciocínio lógico na resolução de problemas, assimilação e interpretação de novas informações - Sim! Esse post também serve para você cientísta.
+Desenvolver _conhecimento prévio_ é um dos pilares fundamentais para melhoria continua do seu processo de aprendizagem, pensamento crítico e raciocínio lógico na resolução de problemas, assimilação e interpretação de novas informações - Sim! Esse post também serve para você cientista.
 
 ## O que é exatamente é o conhecimento prévio?
 Conhecimento prévio refere-se as informações, conceitos e experiências sobre um determinado assunto que já estão armazenados em sua memória de longo prazo (informações já guardadas e muitas vezes de fácil acesso em sua mente). Podemos dizer que é _tudo aquilo que você já sabe_.
