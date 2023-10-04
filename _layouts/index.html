@@ -51,11 +51,11 @@
 		<div class="grid-container">
 			<div class="grid-item-home" onclick="redirecionarParaURL('{{ site.posts[0].url }}')">
 				<a href={{ site.posts[0].url }}>{{ site.posts[0].title }}</a>
-				<p>{{ site.posts[0].content | truncatewords: 30 }}</p>
+				<p>{{ site.posts[0].content | truncatewords: 22 }}</p>
 			</div>
 			<div class="grid-item-home" onclick="redirecionarParaURL('{{ site.posts[1].url }}')">
 				<a href={{ site.posts[1].url }}>{{ site.posts[1].title }}</a>
-				<p>{{ site.posts[1].content | truncatewords: 30 }}</p>
+				<p>{{ site.posts[1].content | truncatewords: 22 }}</p>
 			</div>
 		</div>
 		<br></br>
