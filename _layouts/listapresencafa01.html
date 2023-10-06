@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+</html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bioquímica</title>
+    <link href="{{"css/style.css" | relative_url}}" rel="stylesheet">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            {% include navbar.html %}
+        </div>
+    </header>
+    <br></br>
+    <center>
+        <h1 style="color: white">Contagem de Presenças e Ausências em Aula</h1>
+        <h1 style="color: white">Farmácia</h1>
+    </center>
+    <div style="overflow-x:auto;">
+        <table>
+            <thead>
+                <tr>
+                    <th>nº</th>
+                    <th>Matrícula</th>
+                    <th style="background-color: grey;">Faltas</th>
+                    <th>31/08</th>
+                    <th>05/09</th>
+                    <th>14/09</th>
+                    <th>19/09</th>
+                    <th>21/09</th>
+                    <th>26/09</th>
+                    <th>28/09</th>
+                    <th>05/10</th>
+                    <th>10/10</th>
+
+                </tr>
+                <tr>
+                    <th>01</th>
+                    <th>2023200628</th>
+                    <th style="background-color: grey;">2</th>
+                    <th>P</th>
+                    <th>F</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>F</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>02</th>
+                    <th>2023200077</th>
+                    <th style="background-color: grey;">0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>03</th>
+                    <th>2023201359</th>
+                    <th style="background-color: grey;">2</th>
+                    <th>F</th>
+                    <th>F</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>04</th>
+                    <th>2023200080</th>
+                    <th style="background-color: grey;">0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>05</th>
+                    <th>2023200637</th>
+                    <th style="background-color: grey;">0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>06</th>
+                    <th>2023200097</th>
+                    <th style="background-color: grey;">0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>07</th>
+                    <th>2023201361</th>
+                    <th style="background-color: grey;">4</th>
+                    <th>F</th>
+                    <th>F</th>
+                    <th>F</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>F</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>08</th>
+                    <th>2023200098</th>
+                    <th style="background-color: grey;">0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>9</th>
+                    <th>2023200099</th>
+                    <th style=background-color:grey>0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>10</th>
+                    <th>2023200104</th>
+                    <th style=background-color:grey>1</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>F</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>11</th>
+                    <th>2023200968</th>
+                    <th style=background-color:grey>2</th>
+                    <th>F</th>
+                    <th>P</th>
+                    <th>F</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>12</th>
+                    <th>2023200970</th>
+                    <th style=background-color:grey>0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>13</th>
+                    <th>2023200101</th>
+                    <th style=background-color:grey>8</th>
+                    <th>F</th>
+                    <th>F</th>
+                    <th>F</th>
+                    <th>F</th>
+                    <th>F</th>
+                    <th>F</th>
+                    <th>F</th>
+                    <th>F</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>14</th>
+                    <th>2023200586</th>
+                    <th style=background-color:grey>1</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>F</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>15</th>
+                    <th>2023201088</th>
+                    <th style=background-color:grey>2</th>
+                    <th>P</th>
+                    <th>F</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>F</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>16</th>
+                    <th>2023201793</th>
+                    <th style=background-color:grey>0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>17</th>
+                    <th>2023200518</th>
+                    <th style=background-color:grey>0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>18</th>
+                    <th>2023201090</th>
+                    <th style=background-color:grey>0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>19</th>
+                    <th>2023201089</th>
+                    <th style=background-color:grey>0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>20</th>
+                    <th>2023201087</th>
+                    <th style=background-color:grey>0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>21</th>
+                    <th>2023201086</th>
+                    <th style=background-color:grey>8</th>
+                    <th>F</th>
+                    <th>F</th>
+                    <th>F</th>
+                    <th>F</th>
+                    <th>F</th>
+                    <th>F</th>
+                    <th>F</th>
+                    <th>F</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>22</th>
+                    <th>2023201085</th>
+                    <th style=background-color:grey>0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>23</th>
+                    <th>2023200719</th>
+                    <th style=background-color:grey>0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>24</th>
+                    <th>2023200713</th>
+                    <th style=background-color:grey>0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>25</th>
+                    <th>2023200973</th>
+                    <th style=background-color:grey>1</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>F</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>26</th>
+                    <th>2023200972</th>
+                    <th style=background-color:grey>0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>27</th>
+                    <th>2023201727</th>
+                    <th style=background-color:grey>0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>28</th>
+                    <th>2023200076</th>
+                    <th style=background-color:grey>2</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>F</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>F</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>29</th>
+                    <th>2023201817</th>
+                    <th style=background-color:grey>0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>30</th>
+                    <th>2023201792</th>
+                    <th style=background-color:grey>2</th>
+                    <th>P</th>
+                    <th>F</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>F</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>31</th>
+                    <th>2023200706</th>
+                    <th style=background-color:grey>0</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th>P</th>
+                    <th></th>
+                </tr>
+
+                
+            </thead>
+
+        </table>
+    </div>
+    <br></br>
+
+    <footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p>Desenvolvido por:</p>
+				</div>
+				<div class="col-md-6">
+					<a href="https://daniloas.com/" target="_blank">
+						<img src="./assets/daniloas.png" alt="Logo Exemplo">
+					</a>
+				</div>
+				<div class="socialmidia">
+					<a href="https://www.instagram.com/daniloas.com_/" class="fa fa-instagram"></a>
+					<a href="https://www.linkedin.com/in/daniloandradesantos/" class="fa fa-linkedin"></a>
+					<a href="https://www.youtube.com/@daniloas.com_" class="fa fa-youtube"></a>
+                    <a href="https://github.com/daniloasdotcom" class="fa fa-github" style="color:white"></a>
+                    <a href="https://daniloas.com/" class="fa fa-globe" style="color:white"></a>
+					<!-- Adicione mais redes sociais aqui, se desejar -->
+				</div>
+				<div class="col-md-6">
+					<p>©2023 Danilo Andrade. Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+    
+    <script>
+        var coll = document.getElementsByClassName("collapsiblemenu");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
