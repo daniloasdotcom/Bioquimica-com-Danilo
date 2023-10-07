@@ -27,6 +27,10 @@
 
 - label: Lista FA
   route: /listapresencafa01
+
+# Item 10
+- label: Conteudo FA
+  route: /conteudofa01
   
 # - label: Portfolio
 #   route: /port

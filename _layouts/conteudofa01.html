@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+</html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bioquímica</title>
+    <link href="{{"css/style.css" | relative_url}}" rel="stylesheet">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            {% include navbar.html %}
+        </div>
+    </header>
+    <br></br>
+    <center>
+        <h1 style="color: white">TURMA: FARMÁCIA</h1>
+        <h1 style="color: white">Em construção</h1>
+    </center>
+    <div style="overflow-x:auto;">
+        <figure align = "center">
+            <img src="/assets/images/steps.png" style="width:70%">
+        </figure>
+    </div>
+    <br></br>
+    <footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p>Desenvolvido por:</p>
+				</div>
+				<div class="col-md-6">
+					<a href="https://daniloas.com/" target="_blank">
+						<img src="./assets/daniloas.png" alt="Logo Exemplo">
+					</a>
+				</div>
+				<div class="socialmidia">
+					<a href="https://www.instagram.com/daniloas.com_/" class="fa fa-instagram"></a>
+					<a href="https://www.linkedin.com/in/daniloandradesantos/" class="fa fa-linkedin"></a>
+					<a href="https://www.youtube.com/@daniloas.com_" class="fa fa-youtube"></a>
+                    <a href="https://github.com/daniloasdotcom" class="fa fa-github" style="color:white"></a>
+                    <a href="https://daniloas.com/" class="fa fa-globe" style="color:white"></a>
+					<!-- Adicione mais redes sociais aqui, se desejar -->
+				</div>
+				<div class="col-md-6">
+					<p>©2023 Danilo Andrade. Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+    <script>
+        var coll = document.getElementsByClassName("collapsiblemenu");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
