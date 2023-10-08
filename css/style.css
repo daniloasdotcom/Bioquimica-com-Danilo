@@ -233,6 +233,31 @@ main {
     background-color: #5c799b;
 }
 
+/* proporção 16:9 */
+.collapsible-conteudo {
+    background-color: rgb(167, 151, 13);
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    color: black;
+    line-height: 2.0;
+    border-top-left-radius: 10px; /* Arredonda o canto superior esquerdo */
+    border-top-right-radius: 10px; /* Arredonda o canto superior direito */
+}
+
+.active,
+.collapsible-conteudo:hover {
+    background-color: #5c799b;
+    color: white;
+}
+
 .content {
     padding: 0 18px;
     color: black;
