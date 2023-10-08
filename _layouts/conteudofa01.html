@@ -18,16 +18,69 @@
             {% include navbar.html %}
         </div>
     </header>
+    <div class="margem" align="justify">
     <br></br>
     <center>
         <h1 style="color: white">TURMA: FARMÁCIA</h1>
         <h1 style="color: white">Em construção</h1>
     </center>
+    <button type="button" class="collapsible">O Método Científico<i class="fa fa-folder-open"></i></button>
+		<div class="content">
+			<h1>O Método Científico</h1>
+    
+                <p>O método científico é um processo sistemático utilizado pelos cientistas para investigar e entender o mundo ao nosso redor. Ele é composto por várias etapas interconectadas que ajudam a garantir que as conclusões obtidas sejam confiáveis e baseadas em evidências.</p>
+
+                <h2 style="color: black">Etapas do Método Científico:</h2>
+                <ol>
+                    <li><strong>Observação:</strong> Começa com a observação de um fenômeno ou problema.</li>
+                    <li><strong>Pergunta:</strong> Formula-se uma pergunta específica com base na observação.</li>
+                    <li><strong>Hipótese:</strong> Propõe-se uma hipótese, uma explicação testável para a pergunta.</li>
+                    <li><strong>Experimentação:</strong> Realizam-se experimentos controlados para testar a hipótese.</li>
+                    <li><strong>Coleta de Dados:</strong> Registra-se e analisa-se os dados resultantes dos experimentos.</li>
+                    <li><strong>Conclusões:</strong> Chega-se a conclusões com base nos dados coletados.</li>
+                    <li><strong>Comunicação:</strong> Os resultados são comunicados à comunidade científica e ao público.</li>
+                </ol>
+
+                <h2 style="color: black">Características Importantes:</h2>
+                <ul>
+                    <li>O método científico é baseado em evidências empíricas.</li>
+                    <li>É um processo contínuo e auto-corretivo.</li>
+                    <li>A hipótese pode ser aceita ou rejeitada com base nos resultados dos experimentos.</li>
+                    <li>Contribui para a acumulação do conhecimento científico.</li>
+                </ul>
+
+                <p>O método científico é uma ferramenta essencial para a descoberta e compreensão da natureza, permitindo que os cientistas investiguem questões complexas e desenvolvam teorias confiáveis.</p>
+		</div>
+    <br></br>
+    <button type="button" class="collapsible">Lógica e Ciência<i class="fa fa-folder-open"></i></button>
+		<div class="content">
+			<h1 style="color: black">Lógica e Comunicação Científica</h1>
+    
+                <p>A lógica desempenha um papel crucial na comunicação científica, pois é fundamental para construir argumentos sólidos e identificar falácias lógicas. Neste contexto, é importante destacar a diferença entre a ciência legítima e a pseudociência.</p>
+
+                <h2 style="color: black">Falácias Lógicas na Comunicação Científica:</h2>
+                <p>Falácias lógicas são erros de raciocínio que podem levar a conclusões falsas ou enganosas. Elas devem ser evitadas na comunicação científica para manter a integridade e a credibilidade da pesquisa. Alguns exemplos de falácias comuns incluem:</p>
+                <ul>
+                    <li><strong>Ad Hominem:</strong> Atacar a pessoa que apresenta um argumento em vez de abordar o argumento em si.</li>
+                    <li><strong>Falsa Causalidade:</strong> Assumir que, porque duas coisas acontecem simultaneamente, uma causa a outra.</li>
+                    <li><strong>Generalização Apressada:</strong> Tirar conclusões amplas com base em evidência insuficiente.</li>
+                    <li><strong>Apelo à Emoção:</strong> Usar emoções em vez de evidência lógica para apoiar um argumento.</li>
+                </ul>
+
+                <h2 style="color: black">Pseudociência e sua Armadilha:</h2>
+                <p>A pseudociência é uma forma de conhecimento que se apresenta como científica, mas não segue os princípios do método científico nem se baseia em evidências confiáveis. Ela muitas vezes utiliza falácias lógicas e argumentos enganosos para atrair pessoas. Exemplos de pseudociência incluem curas milagrosas sem evidência científica, teorias da conspiração infundadas e práticas não comprovadas.</p>
+
+                <p>É importante que os cientistas e comunicadores científicos estejam cientes das falácias lógicas e saibam identificar e combater a pseudociência. A comunicação científica eficaz envolve a apresentação de argumentos sólidos e a promoção de um pensamento crítico entre o público.</p>
+
+    <br></br>
+    </div>
+    <!--
     <div style="overflow-x:auto;">
         <figure align = "center">
             <img src="/assets/images/steps.png" style="width:70%">
         </figure>
     </div>
+    -->
     <br></br>
     <footer>
 		<div class="container">
@@ -56,6 +109,23 @@
 	</footer>
     <script>
         var coll = document.getElementsByClassName("collapsiblemenu");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
         var i;
 
         for (i = 0; i < coll.length; i++) {
