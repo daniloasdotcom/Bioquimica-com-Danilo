@@ -31,6 +31,3 @@ Ensinar o que você aprendeu a outras pessoas é uma das melhores maneiras de re
 
 ## Aplicar no no dia-a-dia o que se aprende
 Aplicar o conhecimento no dia a dia envolve usar o que você aprendeu em situações reais ou práticas. Isso não apenas ajuda a reforçar o aprendizado, mas também o torna mais relevante e útil em sua vida cotidiana, garantindo que o conhecimento seja retido e aplicado de forma significativa.
-
-## Esse texto está ficando longo...
-Essas estratégias são valiosas para construir e reforçar o conhecimento prévio como um estudante profissional, melhorando a eficácia de seus estudos e sua capacidade de aplicar o conhecimento adquirido em situações do mundo real.
