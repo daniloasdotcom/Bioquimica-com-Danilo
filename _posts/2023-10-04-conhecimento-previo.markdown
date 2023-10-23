@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Conhecimento prévio: sua biblioteca mental"
+title: "Conhecimento prévio #01: sua biblioteca mental"
 date: 2023-10-04
 author: Professor Danilo
 about: Danilo é Professor de Bioquímica na UFES, adora resolver problemas e encontrar conexões que explicam melhor o conhecimento científico. Possui formação acadêmica em Agronomia e é autodidata em programação. Com sua esposa criou o projeto "Código Agro" que apoia a manutenção deste site.
