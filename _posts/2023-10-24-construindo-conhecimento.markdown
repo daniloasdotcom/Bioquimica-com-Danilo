@@ -4,7 +4,7 @@ title: "Conhecimento prévio #02: práticas para construir o seu"
 date: 2023-10-23
 author: Professor Danilo
 about: Danilo é Professor de Bioquímica na UFES, adora resolver problemas e encontrar conexões que explicam melhor o conhecimento científico. Possui formação acadêmica em Agronomia e é autodidata em programação. Com sua esposa criou o projeto "Código Agro" que apoia a manutenção deste site.
-excerpt: Hoje eu quero lista para você de uma forma bem simples algumas estratégias que são muito eficazes em processos de aprendizagem. Estudar de forma ativa, flash cards, resolução de exercícios, ensinar para outros, integrar o conteúdo aprendido à sua rotina
+excerpt: Hoje eu quero listar para você de uma forma bem simples algumas estratégias que são muito eficazes em processos de aprendizagem. Estudar de forma ativa, flash cards, resolução de exercícios, ensinar para outros, integrar o conteúdo aprendido à sua rotina
 imagem: /assets/images/autor_danilo.png
 ---
 
