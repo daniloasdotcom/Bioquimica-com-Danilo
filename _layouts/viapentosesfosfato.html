@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+</html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Bioquímica</title>
+    <link href="{{"css/style.css" | relative_url}}" rel="stylesheet">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+	<header>
+        <div>
+            {% include navbar.html %}
+        </div>
+    </header>
+
+	<div class="margem">
+		<h1 style="color: #FFFFFF">Quiz - Via das Pentoses Fosfato</h1>
+		<form>
+			<fieldset>
+				<legend>1 - O que é a via das pentoses fosfato?</legend>
+				<label><input type="radio" name="pergunta1" value="a">A) Uma rota metabólica para a síntese de proteínas</label>
+				<label><input type="radio" name="pergunta1" value="b">B) Uma via de produção de ácidos graxos</label>
+				<label><input type="radio" name="pergunta1" value="c">C) Uma via metabólica que produz, principalmente, pentoses e NADPH</label>
+				<label><input type="radio" name="pergunta1" value="d">D) Uma via de produção de ATP</label>
+				<button type="button" onclick="checkAnswer(1)">Verificar resposta</button>
+				<div id="result-p1"></div>
+			</fieldset>
+			<br></br>
+
+			<fieldset>
+				<legend>2 - Qual é a enzima chave na primeira fase da via das pentoses fosfato?</legend>
+				<label><input type="radio" name="pergunta2" value="a">A) Glucose-6-fosfato desidrogenase</label>
+				<label><input type="radio" name="pergunta2" value="b">B) Ribose-5-fosfato isomerase.</label>
+				<label><input type="radio" name="pergunta2" value="c">C) Transaldolase</label>
+				<label><input type="radio" name="pergunta2" value="d">D) Aldolase</label>
+				<button type="button" onclick="checkAnswer(2)">Verificar resposta</button>
+				<div id="result-p2"></div>
+			</fieldset>
+			<br></br>
+
+			<fieldset>
+				<legend>3 - Qual é a função do NADPH produzido na via das pentoses fosfato?</legend>
+				<label><input type="radio" name="pergunta3" value="a">A) Receptor e Transportador de elétrons na cadeia respiratória.</label>
+				<label><input type="radio" name="pergunta3" value="b">B) Síntese de carboidrato durante a gliconeogênese</label>
+				<label><input type="radio" name="pergunta3" value="c">C) Fonte de elétrons durante processos de proteção contra o estresse oxidativo e sintese de outras móleculas orgânicas</label>
+				<label><input type="radio" name="pergunta3" value="d">D) Produção de ATP, GTP, UDP e CTP</label>
+				<button type="button" onclick="checkAnswer(3)">Verificar resposta</button>
+				<div id="result-p3"></div>
+			</fieldset>
+			<br></br>
+
+			<fieldset>
+				<legend>4 - Quais são as duas fases distintas da via das pentoses fosfato e qual é a principal diferença entre elas?</legend>
+				<label><input type="radio" name="pergunta4" value="a">A) Fase oxidativa e fase não oxidativa; na fase oxidativa, ocorre a oxidação da glicose, enquanto na fase não oxidativa, ocorre a síntese de glicose.</label>
+				<label><input type="radio" name="pergunta4" value="b">B) Fase catabólica e fase anabólica; na fase catabólica, a glicose é quebrada para produzir energia, enquanto na fase anabólica, a glicose é sintetizada.</label>
+				<label><input type="radio" name="pergunta4" value="c">C) Fase glicolítica e fase lipídica; na fase glicolítica, a glicose é convertida em ácidos graxos, enquanto na fase lipídica, ocorre a síntese de lipídios.</label>
+				<label><input type="radio" name="pergunta4" value="d">D)  Fase oxalacética e fase malônica; na fase oxalacética, ocorre a produção de NADPH, enquanto na fase malônica, ocorre a produção de ATP.</label>
+				<button type="button" onclick="checkAnswer(4)">Verificar resposta</button>
+				<div id="result-p4"></div>
+			</fieldset>
+			<br></br>
+
+			<fieldset>
+				<legend>5 - Como a via das pentoses fosfato está relacionada à produção de nucleotídeos?</legend>
+				<label><input type="radio" name="pergunta5" value="a">A) A via das pentoses fosfato é responsável pela degradação dos nucleotídeos.</label>
+				<label><input type="radio" name="pergunta5" value="b">B) A via das pentoses fosfato fornece ribose-5-fosfato, um precursor importante na síntese de nucleotídeos.</label>
+				<label><input type="radio" name="pergunta5" value="c">C) A via das pentoses fosfato está envolvida na síntese de proteínas.</label>
+				<label><input type="radio" name="pergunta5" value="d">D) A via das pentoses fosfato é fundamental para a síntese de carboidrato.</label>
+				<button type="button" onclick="checkAnswer(5)">Verificar resposta</button>
+				<div id="result-p5"></div>
+			</fieldset>
+			<br></br>
+
+			<fieldset>
+				<legend>6 - Qual é a relação entre a via das pentoses fosfato e a regulação do estresse oxidativo?</legend>
+				<label><input type="radio" name="pergunta6" value="a">A) A via das pentoses fosfato não tem relação com o estresse oxidativo.</label>
+				<label><input type="radio" name="pergunta6" value="b">B) A via das pentoses fosfato é ativada pelo estresse oxidativo, resultando na produção de radicais livres.</label>
+				<label><input type="radio" name="pergunta6" value="c">C) A via das pentoses fosfato está envolvida na produção de peróxidos.</label>
+				<label><input type="radio" name="pergunta6" value="d">D) A via das pentoses fosfato ajuda a proteger a célula contra o estresse oxidativo, fornecendo NADPH, que é necessário para regenerar glutationa reduzida, um importante antioxidante.</label>
+				<button type="button" onclick="checkAnswer(6)">Verificar resposta</button>
+				<div id="result-p6"></div>
+			</fieldset>
+			<br></br>
+
+		</form>
+	</div>
+	<script>
+		function checkAnswer(questionNumber) {
+			var radios = document.getElementsByName("pergunta" + questionNumber);
+			var resultDiv = document.getElementById("result-p" + questionNumber);
+			var selectedValue = null;
+
+			for (var i = 0; i < radios.length; i++) {
+				if (radios[i].checked) {
+					selectedValue = radios[i].value;
+					break;
+				}
+			}
+
+			if (selectedValue === null) {
+				resultDiv.innerHTML = "Por favor, selecione uma resposta.";
+				resultDiv.className = "without-aswer";
+			} else if (selectedValue === "c" && questionNumber === 1) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "a" && questionNumber === 2) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "c" && questionNumber === 3) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "a" && questionNumber === 4) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "b" && questionNumber === 5) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else if (selectedValue === "d" && questionNumber === 6) {
+				resultDiv.innerHTML = "Resposta correta!";
+				resultDiv.className = "result-correct";
+			} else {
+				resultDiv.innerHTML = "Resposta incorreta!";
+				resultDiv.className = "result-incorrect";
+			}
+		}
+	</script>
+	<br></br>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p>Desenvolvido por:</p>
+				</div>
+				<div class="col-md-6">
+					<a href="https://daniloas.com/" target="_blank">
+						<img src="./assets/daniloas.png" alt="Logo Exemplo">
+					</a>
+				</div>
+				<div class="socialmidia">
+					<a href="https://www.instagram.com/daniloas.com_/" class="fa fa-instagram"></a>
+					<a href="https://www.linkedin.com/in/daniloandradesantos/" class="fa fa-linkedin"></a>
+					<a href="https://www.youtube.com/@daniloas.com_" class="fa fa-youtube"></a>
+					<a href="https://github.com/daniloasdotcom" class="fa fa-github" style="color:white"></a>
+					<a href="https://daniloas.com/" class="fa fa-globe" style="color:white"></a>
+					<!-- Adicione mais redes sociais aqui, se desejar -->
+				</div>
+				<div class="col-md-6">
+					<p>©2023 Danilo Andrade. Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script>
+		var coll = document.getElementsByClassName("collapsiblemenu");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
+			});
+		}
+	</script>
+</body>
+
+</html>
