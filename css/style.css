@@ -391,6 +391,12 @@ th {
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .grid-item-home {
+        grid-column: span 2; /* Ou outro número apropriado */
+    }
+}
+
 .grid-item-home:hover {
     background-color: rgb(167, 151, 13);
     /* Cor de fundo do botão */
