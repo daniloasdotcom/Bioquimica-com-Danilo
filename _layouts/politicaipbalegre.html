@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Bioquímica</title>
+    <link href="{{"css/style.css" | relative_url}}" rel="stylesheet">
+	<link href="{{"css/blog.css" | relative_url}}" rel="stylesheet">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            {% include navbar.html %}
+        </div>
+    </header>
+    <main>
+		<!-- Política de Privacidade -->
+		<div class="policy" style="background-color: #6F6251; color: white; padding: 20px;">
+			<h2>Política de Privacidade - App IBP Alegre</h2>
+			<p>O IPB Alegre (o Aplicativo) é um aplicativo do tipo agenda, para comunicados da Igreja Presbiteriana de Alegre. Todos os direitos do Aplicativo pertencem ao seu desenvolvedor, Danilo Andrade, danilo_as@live.com (o Desenvolvedor).</p>
+
+			<h3>Termos de Licença</h3>
+			<p>Você pode usar o Aplicativo para quaisquer fins comerciais ou particulares, de acordo com este Contrato de Licença e com um contrato de licença fornecido por uma loja de aplicativos, onde o Aplicativo foi adquirido.</p>
+
+			<h3>Privacidade</h3>
+			<p>O Aplicativo não coleta nenhuma informação pessoal e não transfere nenhuma informação pessoal para terceiros.</p>
+
+			<h3>Garantia</h3>
+			<p>O desenvolvedor não fornece nenhuma garantia e não é responsável por perdas ou danos, que podem estar relacionados ao uso do aplicativo. Você assume toda a responsabilidade usando o Aplicativo.</p>
+		</div>
+		<!-- Fim da Política de Privacidade -->
+
+	</main>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p>Desenvolvido por:</p>
+				</div>
+				<div class="col-md-6">
+					<a href="https://daniloas.com/" target="_blank">
+						<img src="./assets/daniloas.png" alt="Logo Exemplo">
+					</a>
+				</div>
+				<div class="socialmidia">
+					<a href="https://www.instagram.com/daniloas.com_/" class="fa fa-instagram"></a>
+					<a href="https://www.linkedin.com/in/daniloandradesantos/" class="fa fa-linkedin"></a>
+					<a href="https://www.youtube.com/@daniloas.com_" class="fa fa-youtube"></a>
+					<a href="https://github.com/daniloasdotcom" class="fa fa-github" style="color:white"></a>
+					<a href="https://daniloas.com/" class="fa fa-globe" style="color:white"></a>
+					<!-- Adicione mais redes sociais aqui, se desejar -->
+				</div>
+				<div class="col-md-6">
+					<p>©2023 Danilo Andrade. Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script>
+		var coll = document.getElementsByClassName("collapsiblemenu");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
+			});
+		}
+		function redirecionarParaURL(url) {
+			window.location.href = url;
+		}
+	</script>
+</body>
+
+</html>
