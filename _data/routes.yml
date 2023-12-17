@@ -4,8 +4,8 @@
 - label: Blog
   route: /blog
 
-- label: CronogramaBB
-  route: /cronogramabb1bb2
+- label: Cronograma Nutrição
+  route: /cronogramanutrição
 
 - label: Lista BB
   route: /listapresencabb
@@ -13,8 +13,8 @@
 - label: Conteudo BB
   route: /conteudobb
 
-- label: CronogramaBL
-  route: /cronogramabl
+- label: Cronograma AG1AG2
+  route: /cronogramaag1ag2
 
 - label: CronogramaFA01
   route: /cronogramafa01
