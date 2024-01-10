@@ -10,14 +10,14 @@
 - label: Lista BB
   route: /listapresencabb
 
-- label: Conteudo BB
-  route: /conteudobb
+- label: Conteudo Nutrição
+  route: /conteudonutricao
 
 - label: Cronograma AG1AG2
   route: /cronogramaag1ag2
 
-- label: CronogramaFA01
-  route: /cronogramafa01
+- label: Conteudo Agronomia
+  route: /conteudoagronomia
 
 - label: Quiz
   route: /quiz
