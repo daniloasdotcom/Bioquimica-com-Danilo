@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fontawesome.com/icons/google-play?f=brands&s=solid">
+	<title>Bioquímica</title>
+    <link href="{{"css/style.css" | relative_url}}" rel="stylesheet">
+	<link href="{{"css/blog.css" | relative_url}}" rel="stylesheet">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            {% include navbar.html %}
+        </div>
+    </header>
+    <main>
+		<div class="gridhome">
+			<div class="area1">
+				<h2 class="hometitle">Olá!</h2>
+				<h2 class="homesub">BIO MEMORY É...</h2>
+				<p class="grid">O aplicativo oficial da disciplina de bioquímica do Professor Danilo. O Aplitivo foi construído pelo Professor a fim de complentar a rotina de estudos dos alunos.</p>
+
+				<p class="grid">Para baixar o aplicativo basta clicar no link abaixo</p>
+				<p class="grid">Disponível apenas para smarthphone com sistema Android</p>
+
+				<div class="socialmidia" style="align-items: center;">
+					<a href="https://www.instagram.com/daniloas.com_/" class="fa-brands fa-google-play" style="color:black"></a>
+					<a href="https://www.linkedin.com/in/daniloandradesantos/" class="fa fa-linkedin" style="color:black"></a>
+					<a href="https://github.com/daniloasdotcom" class="fa fa-github" style="color: black"></a>
+					<a href="https://daniloas.com/" class="fa fa-globe" style="color:black"></a>
+					<!-- Adicione mais redes sociais aqui, se desejar -->
+				</div>
+			</div>
+			<div class="area2">
+			</div>
+		</div>
+		<br></br>
+		<div class="gridhome">
+			<div class="area1">
+				<h2 class="hometitle">Olá!</h2>
+				<h2 class="homesub">BIO MEMORY</h2>
+				<p class="grid"> Eu sou o Professor Danilo, responsável por liderar o ensino e o aprendizado de vocês
+					neste
+					semestre</p>
+
+				<p class="grid">Este site foi projetado para fornecer as informações necessárias para o bom andamento das suas atividades na disciplina de Bioquímica. Acesse o menu da sua turma para baixar os slides, os exercícios para casa, conferir o registro de presenças e também o cronograma da disciplina.</p>
+
+				<div class="socialmidia" style="align-items: center;">
+					<a href="https://www.instagram.com/daniloas.com_/" class="fa fa-instagram" style="color:black"></a>
+					<a href="https://www.linkedin.com/in/daniloandradesantos/" class="fa fa-linkedin" style="color:black"></a>
+					<a href="https://github.com/daniloasdotcom" class="fa fa-github" style="color: black"></a>
+					<a href="https://daniloas.com/" class="fa fa-globe" style="color:black"></a>
+					<!-- Adicione mais redes sociais aqui, se desejar -->
+				</div>
+			</div>
+			<div class="area2">
+			</div>
+		</div>
+		<div class="margem">
+			<p class="esquerda" lign="left"><b>Professor:</b> Danilo Andrade</p>
+			<p class="esquerda" lign="left"><b>Contato:</b> danilo_as@live.com</p>
+		</div>
+		<br></br>
+		
+		<h2 style="color: #FFFFFF" align="center">POSTS RECENTES</h2>
+		<div class="grid-container">
+			<div class="grid-item-home" onclick="redirecionarParaURL('{{ site.posts[0].url }}')">
+				<a href={{ site.posts[0].url }}>{{ site.posts[0].title }}</a>
+				<p>{{ site.posts[0].content | truncatewords: 22 }}</p>
+			</div>
+			<div class="grid-item-home" onclick="redirecionarParaURL('{{ site.posts[1].url }}')">
+				<a href={{ site.posts[1].url }}>{{ site.posts[1].title }}</a>
+				<p>{{ site.posts[1].content | truncatewords: 22 }}</p>
+			</div>
+		</div>
+		<br></br>
+
+	</main>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<p>Desenvolvido por:</p>
+				</div>
+				<div class="col-md-6">
+					<a href="https://daniloas.com/" target="_blank">
+						<img src="./assets/daniloas.png" alt="Logo Exemplo">
+					</a>
+				</div>
+				<div class="socialmidia">
+					<a href="https://www.instagram.com/daniloas.com_/" class="fa fa-instagram"></a>
+					<a href="https://www.linkedin.com/in/daniloandradesantos/" class="fa fa-linkedin"></a>
+					<a href="https://www.youtube.com/@daniloas.com_" class="fa fa-youtube"></a>
+					<a href="https://github.com/daniloasdotcom" class="fa fa-github" style="color:white"></a>
+					<a href="https://daniloas.com/" class="fa fa-globe" style="color:white"></a>
+					<!-- Adicione mais redes sociais aqui, se desejar -->
+				</div>
+				<div class="col-md-6">
+					<p>©2023 Danilo Andrade. Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script>
+		var coll = document.getElementsByClassName("collapsiblemenu");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
+			});
+		}
+		function redirecionarParaURL(url) {
+			window.location.href = url;
+		}
+	</script>
+</body>
+
+</html>

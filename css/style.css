@@ -168,6 +168,10 @@ li {
     color: white;
 }
 
+.fa-google-play {
+    color: white;
+}
+
 nav>a {
     font-weight: bold;
     display: flex;
