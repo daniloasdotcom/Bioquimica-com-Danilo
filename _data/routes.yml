@@ -7,8 +7,8 @@
 - label: Cronograma Nutrição
   route: /cronogramanutrição
 
-- label: Lista BB
-  route: /listapresencabb
+- label: Lista Nutrição
+  route: /listapresencanutricao
 
 - label: Conteudo Nutrição
   route: /conteudonutricao
