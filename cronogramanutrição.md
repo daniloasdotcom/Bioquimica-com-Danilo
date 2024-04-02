@@ -1,5 +1,5 @@
 ---
 title: Cronograma Nutrição
-permalink: "/cronogramanutrição"
-layout: cronogramanutrição
+permalink: "/cronogramanutricao"
+layout: cronogramanutricao
 ---

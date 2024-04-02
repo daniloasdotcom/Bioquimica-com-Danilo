@@ -5,7 +5,7 @@
   route: /blog
 
 - label: Cronograma Nutrição
-  route: /cronogramanutrição
+  route: /cronogramanutricao
 
 - label: Lista Nutrição
   route: /listapresencanutricao
