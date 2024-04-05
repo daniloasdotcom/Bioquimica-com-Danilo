@@ -1,43 +1,34 @@
-# Bioquimica com Danilo
+# Biochemistry with Danilo
 
-Bem-vindo ao repositório do site dedicado à disciplina de Bioquímica na Universidade Federal do Espírito Santo. Este site é uma ferramenta valiosa para estudantes e entusiastas da bioquímica, fornecendo recursos educacionais, materiais de estudo e informações relacionadas à disciplina.
+Welcome to the repository of the website dedicated to the Biochemistry discipline at the Federal University of Espírito Santo. This site is a valuable tool for students and enthusiasts of biochemistry, providing educational resources, study materials, and information related to the discipline.
 
-## Sobre o Site
+## About the Site
 
-Este site foi desenvolvido e é mantido pelo Professor Danilo Andrades como um recurso adicional para a disciplina de Bioquímica. Ele foi criado usando as seguintes tecnologias:
+This site was developed and is maintained by Professor Danilo Andrades as an additional resource for the Biochemistry discipline. It was created using the following technologies:
 
 - HTML
 - CSS
 - JavaScript
 - Jekyll
 
-## Acesso ao Site
+## Accessing the Site
 
-Você pode acessar o site diretamente em [bioquimicacomdanilo.com.br](https://bioquimicacomdanilo.com.br).
+You can access the site directly at [bioquimicacomdanilo.com.br](https://bioquimicacomdanilo.com.br).
 
-## Conteúdo do Site
+## Site Content
 
-O site oferece uma variedade de conteúdos relacionados à bioquímica, incluindo:
+The site offers a variety of content related to biochemistry, including:
 
-- Slides de aulas
-- Textos em nosso blogs
-- Questionários
-- Cronograma da Disciplina
+- Lecture slides
+- Texts in our blogs
+- Quizzes
+- Discipline Schedule
 
-## Como Contribuir
+## Contact
 
-Se você é aluno ou colaborador e deseja contribuir para o site, sinta-se à vontade para fazer isso! Você pode propor melhorias, corrigir erros ou adicionar conteúdo adicional. Para contribuir, siga estas etapas:
-
-1. Faça um fork deste repositório.
-2. Clone o repositório em seu ambiente local.
-3. Faça as alterações desejadas.
-4. Envie um pull request com uma descrição detalhada das alterações propostas.
-
-## Contato
-
-Se você tiver dúvidas, sugestões ou quiser entrar em contato com o professor, você pode fazê-lo através dos seguintes meios:
+If you have any questions, suggestions, or want to get in touch with the professor, you can do so through the following means:
 
 - Email: [danilo.santos@ufes.br](mailto:danilo.santos@ufes)
-- Site pessoal: [daniloas.com](https://daniloas.com/)
+- Personal website: [daniloas.com](https://daniloas.com/)
 
-Agradecemos por visitar o nosso site e esperamos que ele seja útil em seus estudos de bioquímica!
+Thank you for visiting our site, and we hope it proves helpful in your studies of biochemistry!
