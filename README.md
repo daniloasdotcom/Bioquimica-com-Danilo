@@ -28,7 +28,7 @@ The site offers a variety of content related to biochemistry, including:
 
 If you have any questions, suggestions, or want to get in touch with the professor, you can do so through the following means:
 
-- Email: [danilo.santos@ufes.br](mailto:danilo.santos@ufes)
+- Email: [danilo.santos@ufes.br](mailto:danilo.santos@ufes.br)
 - Personal website: [daniloas.com](https://daniloas.com/)
 
 Thank you for visiting our site, and we hope it proves helpful in your studies of biochemistry!
