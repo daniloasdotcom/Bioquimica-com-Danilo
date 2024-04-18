@@ -1,3 +1,5 @@
+[![HTML](https://img.shields.io/badge/HTML-5-orange.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+
 <p align="center">
   <img width="400" height="500" src="assets/home.png">
 </p>
