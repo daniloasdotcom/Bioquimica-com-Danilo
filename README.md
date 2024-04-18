@@ -1,4 +1,6 @@
 [![HTML](https://img.shields.io/badge/HTML-5-orange.svg)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS-3-blue.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Jekyll](https://img.shields.io/badge/Jekyll-4.2.0-red.svg)](https://jekyllrb.com/)
 
 <p align="center">
   <img width="400" height="500" src="assets/home.png">
