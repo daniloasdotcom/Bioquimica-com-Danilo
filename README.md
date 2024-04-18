@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="400" height="300" src="https://raw.githubusercontent.com/username/nome-do-repositorio/caminho/para/a/home.png">
+</p>
+
 # Biochemistry with Danilo
 
 Welcome to the repository of the website dedicated to the Biochemistry discipline at the Federal University of Espírito Santo. This site is a valuable tool for students and enthusiasts of biochemistry, providing educational resources, study materials, and information related to the discipline.
