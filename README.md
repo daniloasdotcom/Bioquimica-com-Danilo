@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="400" height="300" src="assets/home.png">
+  <img width="400" height="500" src="assets/home.png">
 </p>
 
 # Biochemistry with Danilo
