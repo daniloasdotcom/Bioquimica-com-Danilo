@@ -21,7 +21,10 @@
 	<div class="margem" align="justify">
 		<br></br>
 		<h2 style="color: #FFFFFF" align="left">Cronograma de aulas - Nutrição</h2>
-		<button type="button" class="collapsible"><s>Semana 01 - 11/03 - 15/03</s></button>
+		<button type="button" class="collapsible-conclude">Semanas já concluídas</button>
+		<div class="content">
+			<br></br>
+			<button type="button" class="collapsible"><s>Semana 01 - 11/03 - 15/03</s></button>
 		<div class="content">
 			<ul>
 				<li><b><s>13/03 - 4ª feira</s></b></li>
@@ -107,7 +110,9 @@
 			</ul>
 		</div>
 		<br></br>
-		<button type="button" class="collapsible">Semana 07 - 22/04 - 26/04 - Sem Aula</button>
+		</div>
+		<br></br>
+		<button type="button" class="collapsible">Esta Semana - 22/04 à 26/04 - Semana Acadêmica de Nutrição</button>
 		<div class="content">
 			<ul>
 				<li><b>24/04 - 4ª feira</b></li>
@@ -120,6 +125,9 @@
 				</ul>
 			</ul>
 		</div>
+		<br></br>
+		<button type="button" class="collapsible-conclude">Semanas Programadas</button>
+		<div class="content">
 		<br></br>
 		<button type="button" class="collapsible">Semana 08 - 29/04 - 03/05</button>
 		<div class="content">
@@ -162,6 +170,9 @@
 				</ul>
 			</ul>
 		</div>
+		<br></br>
+		</div>
+		
 		<!---
 		
 		<br></br>
@@ -465,6 +476,24 @@
 			});
 		}
 	</script>
+	<script>
+		var coll = document.getElementsByClassName("collapsible-conclude");
+		var i;
+	
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function () {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
+			});
+		}
+	</script>
+
+
 </body>
 
 

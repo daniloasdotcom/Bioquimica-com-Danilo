@@ -217,6 +217,26 @@ main {
     line-height: 2.0;
 }
 
+.collapsible-conclude {
+    background-color: #ca3030;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    line-height: 2.0;
+}
+.active,
+.collapsible-conclude:hover {
+    background-color: #ca3030;
+}
+
 .collapsiblemenu {
     background-color: #5c799b80;
     font-family: "Times New Roman", Times, serif;
