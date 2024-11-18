@@ -12,12 +12,13 @@ Biocarvões são materiais ricos em carbono que vêm da carbonização de resíd
 
 Diferentes tipos de resíduos resultam em biocarvões diferentes, com variações nos nutrientes que eles contêm, porque cada resíduo orgânico tem uma composição química única. Essa composição afeta diretamente os tipos e as quantidades de nutrientes presentes no biocarvão produzido. Alguns resíduos têm mais nutrientes do que outros. No Brasil, por exemplo, a produção de café e eucalipto gera resíduos como a palha de café e a casca de eucalipto, que podem ser usados para produzir biocarvão. Esses materiais, porém, têm diferenças na quantidade de nutrientes, como mostra a tabela abaixo (Fonte: Estudo experimental conduzido em 2023 pela Universidade Federal do Brasil):
 
-| Biocarvão          | Temperatura | Teor de K (kg/t) | Teor de Ca (kg/t) |
-| ------------------ | ----------- | ---------------- | ----------------- |
-| Palha de Café      | 350°C       | 44,57            | 16,70             |
-| Palha de Café      | 600°C       | 56,57            | 23,23             |
-| Casca de Eucalipto | 350°C       | 5,66             | 26,36             |
-| Casca de Eucalipto | 600°C       | 7,01             | 33,11             |
+| Biochar Material      | Temperature | K Content (kg/t) | Ca Content (kg/t) |
+|-----------------------|-------------|------------------|-------------------|
+| Coffee Husk           | 350°C       | 44.57            | 16.70            |
+| Coffee Husk           | 600°C       | 56.57            | 23.23            |
+| Eucalyptus Bark       | 350°C       | 5.66             | 26.36            |
+| Eucalyptus Bark       | 600°C       | 7.01             | 33.11            |
+
 
 ## Por que biocarvões de palha de café têm mais potássio?
 
