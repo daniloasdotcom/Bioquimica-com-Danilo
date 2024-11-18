@@ -1,7 +1,7 @@
 ---
 layout: post  
 title: "Por que biocarvões possuem diferenças em quantidades de nutrientes?"  
-date: 2024-09-24  
+date: 2024-11-18  
 author: Professor Danilo  
 about: Danilo é Professor de Bioquímica na UFES, adora resolver problemas e encontrar conexões que explicam melhor o conhecimento científico. Possui formação acadêmica em Agronomia e é autodidata em programação. Com sua esposa criou o projeto "Código Agro" que apoia a manutenção deste site.  
 excerpt: Diferentes tipos de resíduos resultam em biocarvões diferentes, com variações nos nutrientes que eles contêm, porque cada resíduo orgânico tem uma composição química única. Essa composição afeta diretamente os tipos e as quantidades de nutrientes presentes no biocarvão produzido.   
