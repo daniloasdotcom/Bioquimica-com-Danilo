@@ -22,6 +22,9 @@
 - label: Quiz
   route: /quiz
 
+- label: Ferramentas
+  route: /ferramentas
+
 - label: Como Estudo
   route: /comoestudo
 

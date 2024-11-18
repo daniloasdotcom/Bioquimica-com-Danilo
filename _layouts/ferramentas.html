@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bioquímica Tutor</title>
+    <link href="{{"css/style.css" | relative_url}}" rel="stylesheet">
+    <link href="{{"css/blog.css" | relative_url}}" rel="stylesheet">
+    <script src="./main.js"></script>
+    <style>
+        .section-content {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        .section-content img {
+            max-width: 20%;
+            border-radius: 10px;
+        }
+        .section-content .text-content {
+            max-width: 60%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            {% include navbar.html %}
+        </div>
+    </header>
+    <main>
+        <!-- Seção Bioquímica Tutor -->
+        <section class="bioquimica-tutor-section">
+            <div class="section-content">
+                <img src="./assets/images/bioquimica_tutor.png" alt="Imagem Bioquímica Tutor">
+                <div class="text-content">
+                    <h2 class="hometitle" style="color: #222222; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);">Bioquímica Tutor, um GPT para um estudo mais dinâmico</h2>
+                    <p>Eu sou o Professor Danilo e gostaria de apresentar a vocês o Bioquímica Tutor, uma inteligência artificial desenvolvida para auxiliar no seu aprendizado em Bioquímica neste semestre.</p>
+                    <p>O Bioquímica Tutor é uma ferramenta que visa proporcionar um ambiente onde você pode obter ajuda personalizada em suas atividades e estudos da disciplina. Acesse o menu para explorar os recursos, fazer perguntas e conferir os materiais e cronogramas disponibilizados.</p>
+                </div>
+            </div>
+        </section>
+
+        <br><br>
+
+        <!-- Seção Biomemory -->
+        <section class="biomemory-section">
+            <div class="section-content">
+                <img src="./assets/images/biomemory.png" alt="Imagem Biomemory">
+                <div class="text-content">
+                    <h2 class="hometitle" style="color: #222222; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);">Biomemory, um aplicativo para testar seus conhecimentos enquanto aprende</h2>
+                    <p>O Biomemory é um aplicativo desenvolvido para facilitar o aprendizado de Bioquímica. Com ele, você pode revisar conceitos, testar seus conhecimentos e acompanhar seu progresso no estudo da disciplina.</p>
+                    <p>O aplicativo Biomemory é ideal para quem quer estudar de forma dinâmica e interativa. Ele conta com flashcards, quizzes e outras atividades que tornam o aprendizado mais engajador e eficiente.</p>
+                </div>
+            </div>
+        </section>
+
+        <br><br>
+
+        <div class="margem">
+            <p class="esquerda" lign="left"><b>Professor:</b> Danilo Andrade</p>
+            <p class="esquerda" lign="left"><b>Contato:</b> danilo_as@live.com</p>
+        </div>
+        <br>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Desenvolvido por:</p>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://daniloas.com/" target="_blank">
+                        <img src="./assets/daniloas.png" alt="Logo Exemplo">
+                    </a>
+                </div>
+                <div class="socialmidia">
+                    <a href="https://www.instagram.com/daniloas.com_/" class="fa fa-instagram"></a>
+                    <a href="https://www.linkedin.com/in/daniloandradesantos/" class="fa fa-linkedin"></a>
+                    <a href="https://www.youtube.com/@daniloas.com_" class="fa fa-youtube"></a>
+                    <a href="https://github.com/daniloasdotcom" class="fa fa-github" style="color:white"></a>
+                    <a href="https://daniloas.com/" class="fa fa-globe" style="color:white"></a>
+                    <!-- Adicione mais redes sociais aqui, se desejar -->
+                </div>
+                <div class="col-md-6">
+                    <p>©2023 Danilo Andrade. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        var coll = document.getElementsByClassName("collapsiblemenu");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+        function redirecionarParaURL(url) {
+            window.location.href = url;
+        }
+    </script>
+</body>
+
+</html>
